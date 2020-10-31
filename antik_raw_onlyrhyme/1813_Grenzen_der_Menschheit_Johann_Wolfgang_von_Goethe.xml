@@ -1,0 +1,115 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Grenzen der Menschheit</title>
+        <author>
+          <persName>
+            <surname>Goethe</surname>
+            <forename>Johann Wolfgang von</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">5</measure>
+        <measure type="verses">42</measure>
+        <measure type="verses_per_stanza">1-10, 2-10, 3-8, 4-8, 5-6</measure>
+        <measure type="tokens">130</measure>
+        <measure type="sentences">7</measure>
+        <measure type="characters">682</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1813</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/johann-wolfgang-von-goethe-grenzen-der-menschheit,textbearbeitung,223.html">Grenzen der Menschheit - Johann Wolfgang von Goethe (Interpretation #223)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Weimarer Klassik</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Grenzen der Menschheit</head>
+          <lg rhyme="abcdefghij" type="stanza">
+            <l>Wenn der uralte,</l>
+            <l>Heilige Vater</l>
+            <l>Mit gelassener Hand</l>
+            <l>Aus rollenden Wolken</l>
+            <l>Segnende Blitze</l>
+            <l>Über die Erde sät</l>
+            <l>Küss ich den letzten</l>
+            <l>Saum seines Kleides,</l>
+            <l>Kindliche Schauer</l>
+            <l>Treu in der Brust.</l>
+          </lg>
+          <lg rhyme="abcdefghij" type="stanza">
+            <l>Denn mit Göttern</l>
+            <l>Soll sich nicht messen</l>
+            <l>Irgend ein Mensch.</l>
+            <l>Hebt er sich aufwärts</l>
+            <l>Und berührt</l>
+            <l>Mit dem Scheitel die Sterne,</l>
+            <l>Nirgends haften dann</l>
+            <l>Die unsichern Sohlen,</l>
+            <l>Und mit ihm spielen</l>
+            <l>Wolken und Winde.</l>
+          </lg>
+          <lg rhyme="abcdefgf" type="stanza">
+            <l>Steht er mit festen,</l>
+            <l>Markigen Knochen</l>
+            <l>Auf der wohlgegründeten</l>
+            <l>Dauernden Erde,</l>
+            <l>Reicht er nicht auf,</l>
+            <l>Nur mit der Eiche</l>
+            <l>Oder der Rebe</l>
+            <l>Sich zu vergleichen.</l>
+          </lg>
+          <lg rhyme="abcdeccf" type="stanza">
+            <l>Was underscheidet</l>
+            <l>Götter von Menschen?</l>
+            <l>Daß viele Wellen</l>
+            <l>Vor jenen wandeln,</l>
+            <l>Ein ewiger Strom:</l>
+            <l>Uns hebt die Welle,</l>
+            <l>Verschlingt die Welle,</l>
+            <l>Und wir versinken.</l>
+          </lg>
+          <lg rhyme="abcdef" type="stanza">
+            <l>Ein kleiner Ring</l>
+            <l>Begrenzt unser Leben,</l>
+            <l>Und viele Geschlechter</l>
+            <l>Reihen sie dauernd,</l>
+            <l>An ihres Daseins</l>
+            <l>Unendliche Kette.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

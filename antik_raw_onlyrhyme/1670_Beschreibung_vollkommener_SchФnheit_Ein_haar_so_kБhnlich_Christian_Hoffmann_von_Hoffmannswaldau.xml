@@ -1,0 +1,85 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Beschreibung vollkommener Schönheit / Ein haar so kühnlich</title>
+        <author>
+          <persName>
+            <surname>Hoffmannswaldau</surname>
+            <forename>Christian Hoffmann von</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">4</measure>
+        <measure type="verses">14</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-3, 4-3</measure>
+        <measure type="tokens">119</measure>
+        <measure type="sentences">1</measure>
+        <measure type="characters">591</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1670</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/christian-hoffmann-von-hoffmannswaldau-beschreibung-vollkommener-schoenheit,textbearbeitung,179.html">Beschreibung vollkommener Schönheit - Christian Hoffmann von Hoffmannswaldau (Interpretation #179)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Barock</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Beschreibung vollkommener Schönheit / Ein haar so kühnlich</head>
+          <lg rhyme="abba" type="stanza">
+            <l>Ein haar so kühnlich trotz der Berenice spricht</l>
+            <l>Ein mund / der rosen führt und perlen in sich heget</l>
+            <l>Ein zünglein / so ein gifft vor tausend hertzen träget</l>
+            <l>Zwo brüste / wo rubin durch alabaster bricht</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l>Ein hals / der schwanen-schnee weit weit zurücke sticht</l>
+            <l>Zwey wangen / wo die pracht der Flora sich beweget</l>
+            <l>Ein blick / der blitze führt und männer niederleget</l>
+            <l>Zwey armen / derer krafft offt leuen hingericht</l>
+          </lg>
+          <lg rhyme="abb" type="stanza">
+            <l>Ein hertz / aus welchem nichts als mein verderben quillet</l>
+            <l>Ein wort / so himmlisch ist / und mich verdammen kan</l>
+            <l>Zwey hände / derer grimm mich in den bann gethan</l>
+          </lg>
+          <lg rhyme="abb" type="stanza">
+            <l>Und durch ein süsses gifft die seele selbst umhüllet</l>
+            <l>Ein zierrath / wie es scheint / im paradieß gemacht</l>
+            <l>Hat mich um meinen witz und meine freyheit bracht.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

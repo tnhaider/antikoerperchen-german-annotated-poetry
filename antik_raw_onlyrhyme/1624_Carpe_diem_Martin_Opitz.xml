@@ -1,0 +1,113 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Carpe diem</title>
+        <author>
+          <persName>
+            <surname>Opitz</surname>
+            <forename>Martin</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">5</measure>
+        <measure type="verses">40</measure>
+        <measure type="verses_per_stanza">1-8, 2-8, 3-8, 4-8, 5-8</measure>
+        <measure type="tokens">209</measure>
+        <measure type="sentences">13</measure>
+        <measure type="characters">982</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1624</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/martin-opitz-carpe-diem,textbearbeitung,189.html">Carpe diem - Martin Opitz (Interpretation #189)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Barock</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Carpe diem</head>
+          <lg rhyme="abbacddc" type="stanza">
+            <l>Ich empfinde fast ein Grauen,</l>
+            <l>dass ich, Plato, für und für</l>
+            <l>bin gesessen über dir.</l>
+            <l>Es ist Zeit hinauszuschauen</l>
+            <l>und sich bei den frischen Quellen</l>
+            <l>in dem Grünen zu ergehn.</l>
+            <l>wo die schönen Blumen stehn</l>
+            <l>und die Fischer Netze stellen!</l>
+          </lg>
+          <lg rhyme="abbacddc" type="stanza">
+            <l>Wozu dienet das Studieren</l>
+            <l>als zu lauter Ungemach!</l>
+            <l>Unterdessen läuft die Bach</l>
+            <l>unsers Lebens, das wir führen,</l>
+            <l>ehe wir es inne werden,</l>
+            <l>auf ihr letztes Ende hin:</l>
+            <l>dann kömmt ohne Geist und Sinn</l>
+            <l>dieses alles in die Erden.</l>
+          </lg>
+          <lg rhyme="abbacddc" type="stanza">
+            <l>Holla, Junger, geh und frage,</l>
+            <l>wo der beste Trunk mag sein,</l>
+            <l>nimm den Krug und fülle Wein!</l>
+            <l>Alles Trauren, Leid und Klage,</l>
+            <l>wie wir Menschen täglich haben,</l>
+            <l>eh uns Clotho fortgerafft,</l>
+            <l>will ich in den süssen Saft,</l>
+            <l>den die Traube gibt, vergraben.</l>
+          </lg>
+          <lg rhyme="abbacddc" type="stanza">
+            <l>Kaufe gleichfalls auch Melonen</l>
+            <l>und vergiss des Zuckers nicht,</l>
+            <l>schaue nur, dass nichts gebricht!</l>
+            <l>Jener mag der Heller schonen,</l>
+            <l>der bei seinem Gold und Schätzen</l>
+            <l>tolle sich zu kränken pflegt</l>
+            <l>und nicht satt zu Bette legt;</l>
+            <l>ich will, weil ich kann, mich letzen!</l>
+          </lg>
+          <lg rhyme="abbacddc" type="stanza">
+            <l>Bitte meine guten Brüder</l>
+            <l>auf die Musik und ein Glas!</l>
+            <l>Kein Ding schickt sich, dünkt mich, bass</l>
+            <l>als gut Trank und gute Lieder.</l>
+            <l>Lass ich gleich nicht viel zu erben,</l>
+            <l>ei, so hab ich edlen Wein!</l>
+            <l>Will mit andern lustig sein,</l>
+            <l>muss ich gleich alleine sterben.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

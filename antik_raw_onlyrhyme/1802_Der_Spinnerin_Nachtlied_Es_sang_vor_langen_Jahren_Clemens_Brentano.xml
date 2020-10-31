@@ -1,0 +1,99 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Der Spinnerin Nachtlied / Es sang vor langen Jahren</title>
+        <author>
+          <persName>
+            <surname>Brentano</surname>
+            <forename>Clemens</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">6</measure>
+        <measure type="verses">24</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-4, 4-4, 5-4, 6-4</measure>
+        <measure type="tokens">115</measure>
+        <measure type="sentences">7</measure>
+        <measure type="characters">524</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1802</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/clemens-brentano-der-spinnerin-nachtlied-the-night-song-of-the-spinner,textbearbeitung,424.html"> Der Spinnerin Nachtlied (The Night Song of the Spinner) - Clemens Brentano (English Translation, Interpretation #424)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Heidelberger RomantikJüngere RomantikHochromantik</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Der Spinnerin Nachtlied / Es sang vor langen Jahren</head>
+          <lg rhyme="abba" type="stanza">
+            <l>Es sang vor langen Jahren</l>
+            <l>Wohl auch die Nachtigall,</l>
+            <l>Das war wohl süßer Schall,</l>
+            <l>Da wir zusammen waren.</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l>Ich sing' und kann nicht weinen,</l>
+            <l>Und spinne so allein</l>
+            <l>Den Faden klar und rein</l>
+            <l>So lang der Mond wird scheinen.</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l>Als wir zusammen waren</l>
+            <l>Da sang die Nachtigall</l>
+            <l>Nun mahnet mich ihr Schall</l>
+            <l>Daß du von mir gefahren.</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l>So oft der Mond mag scheinen,</l>
+            <l>Denk' ich wohl dein allein.</l>
+            <l>Mein Herz ist klar und rein,</l>
+            <l>Gott wolle uns vereinen.</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l>Seit du von mir gefahren,</l>
+            <l>Singt stets die Nachtigall,</l>
+            <l>Ich denk' bei ihrem Schall,</l>
+            <l>Wie wir zusammen waren.</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l>Gott wolle uns vereinen</l>
+            <l>Hier spinn'ich so allein,</l>
+            <l>Der Mond scheint klar und rein,</l>
+            <l>Ich sing' und möchte weinen.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

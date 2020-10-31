@@ -1,0 +1,123 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Kriegslied</title>
+        <author>
+          <persName>
+            <surname>Mühsam</surname>
+            <forename>Erich</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">5</measure>
+        <measure type="verses">50</measure>
+        <measure type="verses_per_stanza">1-10, 2-10, 3-10, 4-10, 5-10</measure>
+        <measure type="tokens">229</measure>
+        <measure type="sentences">33</measure>
+        <measure type="characters">1342</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1917</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/erich-muehsam-kriegslied,textbearbeitung,362.html">Kriegslied - Erich Mühsam (Interpretation #362)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Expressionismus</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Kriegslied</head>
+          <lg rhyme="aabbbcccdc" type="stanza">
+            <l>Sengen, brennen, schießen, stechen,</l>
+            <l>Schädel spalten, Rippen brechen,</l>
+            <l>spionieren, requirieren,</l>
+            <l>patrouillieren, exerzieren,</l>
+            <l>fluchen, bluten, hungern, frieren ...</l>
+            <l>So lebt der edle Kriegerstand,</l>
+            <l>die Flinte in der linken Hand,</l>
+            <l>das Messer in der rechten Hand –</l>
+            <l>mit Gott, mit Gott, mit Gott,</l>
+            <l>mit Gott für König und Vaterland.</l>
+          </lg>
+          <lg rhyme="aabbbcccdc" type="stanza">
+            <l>Aus dem Bett von Lehm und Jauche</l>
+            <l>zur Attacke auf dem Bauche!</l>
+            <l>Trommelfeuer – Handgranaten –</l>
+            <l>Wunden – Leichen – Heldentaten –</l>
+            <l>bravo, tapfere Soldaten!</l>
+            <l>So lebt der edle Kriegerstand,</l>
+            <l>das Eisenkreuz am Preußenband,</l>
+            <l>die Tapferkeit am Bayernband,</l>
+            <l>mit Gott, mit Gott, mit Gott,</l>
+            <l>mit Gott für König und Vaterland.</l>
+          </lg>
+          <lg rhyme="aabbbcccdc" type="stanza">
+            <l>Stillgestanden! Hoch die Beine!</l>
+            <l>Augen gradeaus, ihr Schweine!</l>
+            <l>Visitiert und schlecht befunden.</l>
+            <l>Keinen Urlaub. Angebunden.</l>
+            <l>Strafdienst extra sieben Stunden.</l>
+            <l>So lebt der edle Kriegerstand.</l>
+            <l>Jawohl, Herr Oberleutenant!</l>
+            <l>Und zu Befehl, Herr Leutenant!</l>
+            <l>Mit Gott, mit Gott, mit Gott,</l>
+            <l>mit Gott für König und Vaterland.</l>
+          </lg>
+          <lg rhyme="aabbbcccdc" type="stanza">
+            <l>Vorwärts mit Tabak und Kümmel!</l>
+            <l>Bajonette. Schlachtgetümmel.</l>
+            <l>Vorwärts! Sterben oder Siegen!</l>
+            <l>Deutscher kennt kein Unterliegen.</l>
+            <l>Knochen splittern, Fetzen fliegen.</l>
+            <l>So lebt der edle Kriegerstand.</l>
+            <l>Der Schweiß tropft in den Grabenrand,</l>
+            <l>das Blut tropft in den Straßenrand,</l>
+            <l>mit Gott, mit Gott, mit Gott,</l>
+            <l>mit Gott für König und Vaterland.</l>
+          </lg>
+          <lg rhyme="aabbbcccdc" type="stanza">
+            <l>Angeschossen – hochgeschmissen –</l>
+            <l>Bauch und Därme aufgerissen.</l>
+            <l>Rote Häuser – blauer Äther –</l>
+            <l>Teufel! Alle heiligen Väter! ...</l>
+            <l>Mutter! Mutter!! Sanitäter!!!</l>
+            <l>So stirbt der edle Kriegerstand,</l>
+            <l>in Stiefel, Maul und Ohren Sand</l>
+            <l>und auf das Grab drei Schippen Sand –</l>
+            <l>mit Gott, mit Gott, mit Gott,</l>
+            <l>mit Gott für König und Vaterland.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

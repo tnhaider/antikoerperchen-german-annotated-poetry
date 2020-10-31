@@ -1,0 +1,147 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">John Maynard</title>
+        <author>
+          <persName>
+            <surname>Fontane</surname>
+            <forename>Theodor</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">11</measure>
+        <measure type="verses">62</measure>
+        <measure type="verses_per_stanza">1-7, 2-10, 3-6, 4-6, 5-6, 6-4, 7-6, 8-2, 9-6, 10-4, 11-5</measure>
+        <measure type="tokens">393</measure>
+        <measure type="sentences">21</measure>
+        <measure type="characters">1937</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1886</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/theodor-fontane-john-maynard,textbearbeitung,377.html">John Maynard - Theodor Fontane (Interpretation #377)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Realismus</classCode>
+        <classCode scheme="text_genre">Ballade</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>John Maynard</head>
+          <lg rhyme="aabbcca" type="stanza">
+            <l>John Maynard!</l>
+            <l>"Wer ist John Maynard?"</l>
+            <l>"John Maynard war unser Steuermann,</l>
+            <l>aushielt er, bis er das Ufer gewann,</l>
+            <l>er hat uns gerettet, er trägt die Kron',</l>
+            <l>er starb für uns, unsre Liebe sein Lohn.</l>
+            <l>John Maynard."</l>
+          </lg>
+          <lg rhyme="aabbccddee" type="stanza">
+            <l>Die "Schwalbe" fliegt über den Erie-See,</l>
+            <l>Gischt schäumt um den Bug wie Flocken von Schnee;</l>
+            <l>von Detroit fliegt sie nach Buffalo -</l>
+            <l>die Herzen aber sind frei und froh,</l>
+            <l>und die Passagiere mit Kindern und Fraun</l>
+            <l>im Dämmerlicht schon das Ufer schaun,</l>
+            <l>und plaudernd an John Maynard heran</l>
+            <l>tritt alles: "Wie weit noch, Steuermann?"</l>
+            <l>Der schaut nach vorn und schaut in die Rund:</l>
+            <l>"Noch dreißig Minuten ... Halbe Stund."</l>
+          </lg>
+          <lg rhyme="aabbcc" type="stanza">
+            <l>Alle Herzen sind froh, alle Herzen sind frei -</l>
+            <l>da klingt's aus dem Schiffsraum her wie Schrei,</l>
+            <l>"Feuer!" war es, was da klang,</l>
+            <l>ein Qualm aus Kajüt und Luke drang,</l>
+            <l>ein Qualm, dann Flammen lichterloh,</l>
+            <l>und noch zwanzig Minuten bis Buffalo.</l>
+          </lg>
+          <lg rhyme="aabbcc" type="stanza">
+            <l>Und die Passagiere, bunt gemengt,</l>
+            <l>am Bugspriet stehn sie zusammengedrängt,</l>
+            <l>am Bugspriet vorn ist noch Luft und Licht,</l>
+            <l>am Steuer aber lagert sich´s dicht,</l>
+            <l>und ein Jammern wird laut: "Wo sind wir? wo?"</l>
+            <l>Und noch fünfzehn Minuten bis Buffalo. -</l>
+          </lg>
+          <lg rhyme="aabbcd" type="stanza">
+            <l>Der Zugwind wächst, doch die Qualmwolke steht,</l>
+            <l>der Kapitän nach dem Steuer späht,</l>
+            <l>er sieht nicht mehr seinen Steuermann,</l>
+            <l>aber durchs Sprachrohr fragt er an:</l>
+            <l>"Noch da, John Maynard?"</l>
+            <l>"Ja,Herr. Ich bin."</l>
+          </lg>
+          <lg rhyme="abcc" type="stanza">
+            <l>"Auf den Strand! In die Brandung!"</l>
+            <l>"Ich halte drauf hin."</l>
+            <l>Und das Schiffsvolk jubelt: "Halt aus! Hallo!"</l>
+            <l>Und noch zehn Minuten bis Buffalo. - -</l>
+          </lg>
+          <lg rhyme="aabbcc" type="stanza">
+            <l>"Noch da, John Maynard?" Und Antwort schallt's</l>
+            <l>mit ersterbender Stimme: "Ja, Herr, ich halt's!"</l>
+            <l>Und in die Brandung, was Klippe, was Stein,</l>
+            <l>jagt er die "Schwalbe" mitten hinein.</l>
+            <l>Soll Rettung kommen, so kommt sie nur so.</l>
+            <l>Rettung: der Strand von Buffalo!</l>
+          </lg>
+          <lg rhyme="aa" type="stanza">
+            <l>Das Schiff geborsten. Das Feuer verschwelt.</l>
+            <l>Gerettet alle. Nur einer fehlt!</l>
+          </lg>
+          <lg rhyme="aabbcc" type="stanza">
+            <l>Alle Glocken gehn; ihre Töne schwell'n</l>
+            <l>himmelan aus Kirchen und Kapell'n,</l>
+            <l>ein Klingen und Läuten, sonst schweigt die Stadt,</l>
+            <l>ein Dienst nur, den sie heute hat:</l>
+            <l>Zehntausend folgen oder mehr,</l>
+            <l>und kein Aug' im Zuge, das tränenleer.</l>
+          </lg>
+          <lg rhyme="aabb" type="stanza">
+            <l>Sie lassen den Sarg in Blumen hinab,</l>
+            <l>mit Blumen schließen sie das Grab,</l>
+            <l>und mit goldner Schrift in den Marmorstein</l>
+            <l>schreibt die Stadt ihren Dankspruch ein:</l>
+          </lg>
+          <lg rhyme="aabbc" type="stanza">
+            <l>"Hier ruht John Maynard! In Qualm und Brand</l>
+            <l>hielt er das Steuer fest in der Hand,</l>
+            <l>er hat uns gerettet, er trägt die Kron,</l>
+            <l>er starb für uns, unsre Liebe sein Lohn.</l>
+            <l>John Maynard."</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Stadt</title>
+        <author>
+          <persName>
+            <surname>Engelke</surname>
+            <forename>Gerrit</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">3</measure>
+        <measure type="verses">24</measure>
+        <measure type="verses_per_stanza">1-8, 2-8, 3-8</measure>
+        <measure type="tokens">164</measure>
+        <measure type="sentences">6</measure>
+        <measure type="characters">906</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1912</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/gerrit-engelke-stadt,textbearbeitung,19.html">Stadt - Gerrit Engelke (Interpretation #19)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">FrühexpressionismusArbeiterdichtung</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Stadt</head>
+          <lg rhyme="aabbcdcd" type="stanza">
+            <l>Zehntausend starre Blöcke sind im Tal errichtet,</l>
+            <l>Aus: Stein auf Stein um Holz- und Eisenroste hochgeschichtet;</l>
+            <l>Und Block an Block zu einem Berg gedrückt,</l>
+            <l>Von Dampfrohr, Turm und Bahn noch überbrückt,</l>
+            <l>Von Draht, der Netz an Netze spinnt.</l>
+            <l>Der Berg, von vielen Furchen tief durchwühlt:</l>
+            <l>Das ist das große Labyrinth,</l>
+            <l>Dadurch das Schicksal Mensch um Menschen spült.</l>
+          </lg>
+          <lg rhyme="aabbcdcd" type="stanza">
+            <l>Fünfhunderttausend rollt im Kreis das große Leben</l>
+            <l>Durch alle Rinnen fort und fort in ungeheurem Streben:</l>
+            <l>In Kaufhaus, Werkstatt, Saal und Bahnhofshalle,</l>
+            <l>In Schule, Park, am Promenadenwalle,</l>
+            <l>Im Fahrstuhlschacht, im Bau am Krahn,</l>
+            <l>Treppauf und ab, durch Straßen über Plätze,</l>
+            <l>Auf Wagen, Rad und Straßenbahn:</l>
+            <l>Da schäumt des Menschenstrudels wirre Hetze.</l>
+          </lg>
+          <lg rhyme="aabbcdcd" type="stanza">
+            <l>Fünfhunderttausend Menschen rollt das große Leben</l>
+            <l>Durch alle Rinnen fort und fort in ungeheurem Streben.</l>
+            <l>Und karrt der Tod auch Hundert täglich fort,</l>
+            <l>Es braust der Lärm wie sonst an jedem Ort.</l>
+            <l>Schleppt er vom Hammer-Block den Schmied,</l>
+            <l>Schleppt er vom Kurven-Gleis den Wagenleiter:</l>
+            <l>Noch stärker brüllt das Straßenlied:</l>
+            <l>Der Wagen fährt - der Hammer dröhnt weiter.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

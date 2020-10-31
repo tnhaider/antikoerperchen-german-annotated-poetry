@@ -1,0 +1,85 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Die Stadt</title>
+        <author>
+          <persName>
+            <surname>Heym</surname>
+            <forename>Georg</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">4</measure>
+        <measure type="verses">14</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-3, 4-3</measure>
+        <measure type="tokens">90</measure>
+        <measure type="sentences">7</measure>
+        <measure type="characters">480</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1911</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/georg-heym-die-stadt,textbearbeitung,12.html">Die Stadt - Georg Heym (Interpretation #12)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Expressionismus</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Die Stadt</head>
+          <lg rhyme="abba" type="stanza">
+            <l>Sehr weit ist diese Nacht. Und Wolkenschein</l>
+            <l>Zerreißet vor des Mondes Untergang.</l>
+            <l>Und tausend Fenster stehn die Nacht entlang</l>
+            <l>Und blinzeln mit den Lidern, rot und klein.</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l>Wie Aderwerk gehn Straßen durch die Stadt,</l>
+            <l>Unzählig Menschen schwemmen aus und ein.</l>
+            <l>Und ewig stumpfer Ton von stumpfem Sein</l>
+            <l>Eintönig kommt heraus in Stille matt.</l>
+          </lg>
+          <lg rhyme="aaa" type="stanza">
+            <l>Gebären, Tod, gewirktes Einerlei,</l>
+            <l>Lallen der Wehen, langer Sterbeschrei,</l>
+            <l>Im blinden Wechsel geht es dumpf vorbei.</l>
+          </lg>
+          <lg rhyme="aaa" type="stanza">
+            <l>Und Schein und Feuer, Fackeln rot und Brand,</l>
+            <l>Die drohn im Weiten mit gezückter Hand</l>
+            <l>Und scheinen hoch von dunkler Wolkenwand.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

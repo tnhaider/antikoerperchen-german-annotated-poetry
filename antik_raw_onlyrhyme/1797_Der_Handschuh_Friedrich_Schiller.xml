@@ -1,0 +1,146 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Der Handschuh</title>
+        <author>
+          <persName>
+            <surname>Schiller</surname>
+            <forename>Friedrich</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">8</measure>
+        <measure type="verses">67</measure>
+        <measure type="verses_per_stanza">1-6, 2-10, 3-16, 4-11, 5-4, 6-5, 7-5, 8-10</measure>
+        <measure type="tokens">315</measure>
+        <measure type="sentences">9</measure>
+        <measure type="characters">1560</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1797</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/friedrich-schiller-der-handschuh,textbearbeitung,433.html">Der Handschuh - Friedrich Schiller (Interpretation #433)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Weimarer Klassik</classCode>
+        <classCode scheme="text_genre">Ballade</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Der Handschuh</head>
+          <lg rhyme="aabccb" type="stanza">
+            <l>Vor seinem Löwengarten,</l>
+            <l>Das Kampfspiel zu erwarten,</l>
+            <l>Saß König Franz,</l>
+            <l>Und um ihn die Großen der Krone,</l>
+            <l>Und rings auf hohem Balkone</l>
+            <l>Die Damen in schönem Kranz.</l>
+          </lg>
+          <lg rhyme="aabbccddee" type="stanza">
+            <l>Und wie er winkt mit dem Finger,</l>
+            <l>Auf tut sich der weite Zwinger,</l>
+            <l>Und hinein mit bedächtigem Schritt</l>
+            <l>Ein Löwe tritt,</l>
+            <l>Und sieht sich stumm</l>
+            <l>Rings um,</l>
+            <l>Mit langem Gähnen,</l>
+            <l>Und schüttelt die Mähnen,</l>
+            <l>Und streckt die Glieder,</l>
+            <l>Und legt sich nieder.</l>
+          </lg>
+          <lg rhyme="abcbdceeffdgghha" type="stanza">
+            <l>Und der König winkt wieder,</l>
+            <l>Da öffnet sich behend</l>
+            <l>Ein zweites Tor,</l>
+            <l>Daraus rennt</l>
+            <l>Mit wildem Sprunge</l>
+            <l>Ein Tiger hervor,</l>
+            <l>Wie der den Löwen erschaut,</l>
+            <l>Brüllt er laut,</l>
+            <l>Schlägt mit dem Schweif</l>
+            <l>Einen furchtbaren Reif,</l>
+            <l>Und recket die Zunge,</l>
+            <l>Und im Kreise scheu</l>
+            <l>Umgeht er den Leu</l>
+            <l>Grimmig schnurrend;</l>
+            <l>Drauf streckt er sich murrend</l>
+            <l>Zur Seite nieder.</l>
+          </lg>
+          <lg rhyme="abbccdeeffd" type="stanza">
+            <l>Und der König winkt wieder,</l>
+            <l>Da speit das doppelt geöffnete Haus</l>
+            <l>Zwei Leoparden auf einmal aus,</l>
+            <l>Die stürzen mit mutiger Kampfbegier</l>
+            <l>Auf das Tigertier,</l>
+            <l>Das packt sie mit seinen grimmigen Tatzen,</l>
+            <l>Und der Leu mit Gebrüll</l>
+            <l>Richtet sich auf, da wird's still,</l>
+            <l>Und herum im Kreis,</l>
+            <l>Von Mordsucht heiß,</l>
+            <l>Lagern die greulichen Katzen.</l>
+          </lg>
+          <lg rhyme="aabb" type="stanza">
+            <l>Da fällt von des Altans Rand</l>
+            <l>Ein Handschuh von schöner Hand</l>
+            <l>Zwischen den Tiger und den Leun</l>
+            <l>Mitten hinein.</l>
+          </lg>
+          <lg rhyme="ababc" type="stanza">
+            <l>Und zu Ritter Delorges spottenderweis</l>
+            <l>Wendet sich Fräulein Kunigund:</l>
+            <l>»Herr Ritter, ist Eure Lieb so heiß,</l>
+            <l>Wie Ihr mir's schwört zu jeder Stund,</l>
+            <l>Ei, so hebt mir den Handschuh auf.«</l>
+          </lg>
+          <lg rhyme="abccb" type="stanza">
+            <l>Und der Ritter in schnellem Lauf</l>
+            <l>Steigt hinab in den furchtbarn Zwinger</l>
+            <l>Mit festem Schritte,</l>
+            <l>Und aus der Ungeheuer Mitte</l>
+            <l>Nimmt er den Handschuh mit keckem Finger.</l>
+          </lg>
+          <lg rhyme="aabcbbcddc" type="stanza">
+            <l>Und mit Erstaunen und mit Grauen</l>
+            <l>Sehen's die Ritter und Edelfrauen,</l>
+            <l>Und gelassen bringt er den Handschuh zurück.</l>
+            <l>Da schallt ihm sein Lob aus jedem Munde,</l>
+            <l>Aber mit zärtlichem Liebesblick –</l>
+            <l>Er verheißt ihm sein nahes Glück –</l>
+            <l>Empfängt ihn Fräulein Kunigunde.</l>
+            <l>Und er wirft ihr den Handschuh ins Gesicht:</l>
+            <l>»Den Dank, Dame, begehr ich nicht«,</l>
+            <l>Und verläßt sie zur selben Stunde.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

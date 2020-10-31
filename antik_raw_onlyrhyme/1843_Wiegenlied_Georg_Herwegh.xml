@@ -1,0 +1,99 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Wiegenlied</title>
+        <author>
+          <persName>
+            <surname>Herwegh</surname>
+            <forename>Georg</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">6</measure>
+        <measure type="verses">24</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-4, 4-4, 5-4, 6-4</measure>
+        <measure type="tokens">120</measure>
+        <measure type="sentences">7</measure>
+        <measure type="characters">610</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1843</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/georg-herwegh-wiegenlied,textbearbeitung,242.html">Wiegenlied - Georg Herwegh (Interpretation #242)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">VormärzBiedermeierJunges Deutschland</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Wiegenlied</head>
+          <lg rhyme="abab" type="stanza">
+            <l>Deutschland - auf weichem Pfühle</l>
+            <l>Mach' dir den Kopf nicht schwer!</l>
+            <l>Im irdischen Gewühle</l>
+            <l>Schlafe, was willst du mehr?</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l>Laß jede Freiheit dir rauben,</l>
+            <l>Setze dich nicht zur Wehr,</l>
+            <l>Du behältst ja den christlichen Glauben:</l>
+            <l>Schlafe, was willst du mehr?</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l>Und ob man dir alles verböte,</l>
+            <l>Doch gräme dich nicht zu sehr,</l>
+            <l>Du hast ja Schiller und Goethe:</l>
+            <l>Schlafe, was willst du mehr?</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l>Dein König beschützt die Kamele</l>
+            <l>Und macht sie pensionär,</l>
+            <l>Dreihundert Taler die Seele:</l>
+            <l>Schlafe, was willst du mehr?</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l>Es fechten dreihundert Blätter</l>
+            <l>Im Schatten, ein Sparterheer;</l>
+            <l>Und täglich erfährst du das Wetter:</l>
+            <l>Schlafe, was willst du mehr?</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l>Kein Kind läuft ohne Höschen</l>
+            <l>Am Rhein, dem freien, umher:</l>
+            <l>Mein Deutschland, mein Dornröschen,</l>
+            <l>Schlafe, was willst du mehr?</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

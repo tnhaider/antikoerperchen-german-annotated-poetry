@@ -1,0 +1,93 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Neue Liebe</title>
+        <author>
+          <persName>
+            <surname>Eichendorff</surname>
+            <forename>Joseph von</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">5</measure>
+        <measure type="verses">20</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-4, 4-4, 5-4</measure>
+        <measure type="tokens">113</measure>
+        <measure type="sentences">6</measure>
+        <measure type="characters">533</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1837</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/joseph-von-eichendorff-neue-liebe,textbearbeitung,358.html">Neue Liebe - Joseph von Eichendorff (Kurz-Interpretation #358)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Romantik</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Neue Liebe</head>
+          <lg rhyme="abab" type="stanza">
+            <l>Herz, mein Herz, warum so fröhlich,</l>
+            <l>So voll Unruh und zerstreut,</l>
+            <l>Als käm über Berge selig</l>
+            <l>Schon die schöne Frühlingszeit?</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l>Weil ein liebes Mädchen wieder</l>
+            <l>Herzlich an dein Herz sich drückt,</l>
+            <l>Schaust du fröhlich auf und nieder,</l>
+            <l>Erd und Himmel dich erquickt.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l>Und ich hab die Fenster offen,</l>
+            <l>Neu zieh in die Welt hinein</l>
+            <l>Altes Bangen, altes Hoffen!</l>
+            <l>Frühling, Frühling soll es sein!</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l>Still kann ich hier nicht mehr bleiben,</l>
+            <l>Durch die Brust ein Singen irrt,</l>
+            <l>Doch zu licht ist's mir zum Schreiben,</l>
+            <l>Und ich bin so froh verwirrt.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l>Also schlendr' ich durch die Gassen,</l>
+            <l>Menschen gehen her und hin,</l>
+            <l>Weiß nicht, was ich tu und lasse,</l>
+            <l>Nur, daß ich so glücklich bin.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

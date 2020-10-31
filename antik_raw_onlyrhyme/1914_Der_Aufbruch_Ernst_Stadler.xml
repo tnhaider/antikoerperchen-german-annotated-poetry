@@ -1,0 +1,83 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Der Aufbruch</title>
+        <author>
+          <persName>
+            <surname>Stadler</surname>
+            <forename>Ernst</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">1</measure>
+        <measure type="verses">18</measure>
+        <measure type="verses_per_stanza">1-18</measure>
+        <measure type="tokens">176</measure>
+        <measure type="sentences">11</measure>
+        <measure type="characters">1008</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1914</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/ernst-stadler-der-aufbruch,textbearbeitung,80.html">Der Aufbruch - Ernst Stadler (Interpretation #80)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Expressionismus</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Der Aufbruch</head>
+          <lg rhyme="aabbccddeeffgghhii" type="stanza">
+            <l>Einmal schon haben Fanfaren mein ungeduldiges Herz blutig gerissen,</l>
+            <l>Dass es, aufsteigend wie ein Pferd, sich wütend ins Gezäum verbissen.</l>
+            <l>Damals schlug Tamburmarsch den Sturm auf allen Wegen,</l>
+            <l>Und herrlichste Musik der Erde hieß uns Kugelregen.</l>
+            <l>Dann, plötzlich, stand Leben stille. Wege führten zwischen alten Bäumen.</l>
+            <l>Gemächer lockten. Es war süß, zu weilen und sich versäumen,</l>
+            <l>Von Wirklichkeit den Leib so wie von staubiger Rüstung zu entketten,</l>
+            <l>Wollüstig sich in Daunen weicher Traumstunden einzubetten.</l>
+            <l>Aber eines Morgens rollte durch Nebelluft das Echo von Signalen,</l>
+            <l>Hart, scharf, wie Schwerthieb pfeifend. Es war, wie wenn im Dunkel plötzlich Lichter aufstrahlen.</l>
+            <l>Es war, wie wenn durch Biwakfrühe Trompetenstöße klirren,</l>
+            <l>Die Schlafenden aufspringen und die Zelte abschlagen und die Pferde schirren.</l>
+            <l>Ich war in Reihen eingeschient, die in den Morgen stießen, Feuer über Helm und Bügel,</l>
+            <l>Vorwärts, in Blick und Blut die Schlacht, mit vorgehaltnem Zügel.</l>
+            <l>Vielleicht würden uns am Abend Siegesmärsche umstreichen,</l>
+            <l>Vielleicht lägen wir irgendwo ausgestreckt unter Leichen.</l>
+            <l>Aber vor dem Erraffen und vor dem Versinken</l>
+            <l>Würden unsre Augen sich an Welt und Sonne satt und glühend trinken.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

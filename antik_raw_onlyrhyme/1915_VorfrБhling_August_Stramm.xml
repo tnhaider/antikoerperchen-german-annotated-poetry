@@ -1,0 +1,81 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Vorfrühling</title>
+        <author>
+          <persName>
+            <surname>Stramm</surname>
+            <forename>August</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">1</measure>
+        <measure type="verses">16</measure>
+        <measure type="verses_per_stanza">1-16</measure>
+        <measure type="tokens">66</measure>
+        <measure type="sentences">4</measure>
+        <measure type="characters">345</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1915</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/august-stramm-vorfruehling,textbearbeitung,57.html">Vorfrühling - August Stramm (Interpretation #57)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Expressionismus</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Vorfrühling</head>
+          <lg rhyme="abcdeefghijklmna" type="stanza">
+            <l>Pralle Wolken jagen sich in Pfützen</l>
+            <l>Aus frischen Leibesbrüchen schreien Halme Ströme</l>
+            <l>Die Schatten stehn erschöpft.</l>
+            <l>Auf kreischt die Luft</l>
+            <l>Im Kreisen, weht und heult und wälzt sich</l>
+            <l>Und Risse schlitzen jählings sich</l>
+            <l>und narben</l>
+            <l>Am grauen Leib.</l>
+            <l>Das Schweigen tappet schwer herab</l>
+            <l>Und lastet!</l>
+            <l>Da rollt das Licht sich auf</l>
+            <l>Jäh gelb und springt</l>
+            <l>Und Flecken spritzen -</l>
+            <l>Verbleicht</l>
+            <l>Und</l>
+            <l>Pralle Wolken tummeln sich in Pfützen.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

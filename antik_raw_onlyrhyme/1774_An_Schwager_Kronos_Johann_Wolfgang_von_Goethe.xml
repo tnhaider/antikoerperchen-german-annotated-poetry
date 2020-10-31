@@ -1,0 +1,118 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">An Schwager Kronos</title>
+        <author>
+          <persName>
+            <surname>Goethe</surname>
+            <forename>Johann Wolfgang von</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">7</measure>
+        <measure type="verses">41</measure>
+        <measure type="verses_per_stanza">1-8, 2-5, 3-5, 4-7, 5-6, 6-5, 7-5</measure>
+        <measure type="tokens">168</measure>
+        <measure type="sentences">15</measure>
+        <measure type="characters">934</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1774</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/johann-wolfgang-von-goethe-an-schwager-kronos,textbearbeitung,328.html">An Schwager Kronos - Johann Wolfgang von Goethe (Interpretation #328)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Sturm und DrangGeniezeit</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>An Schwager Kronos</head>
+          <lg rhyme="abcdefbg" type="stanza">
+            <l>Spude dich, Kronos!</l>
+            <l>Fort den rasselnden Trott!</l>
+            <l>Bergab gleitet der Weg;</l>
+            <l>Ekles Schwindeln zögert</l>
+            <l>Mir vor die Stirne dein Haudern.</l>
+            <l>Frisch den holpernden</l>
+            <l>Stock, Wurzeln, Steine den Trott</l>
+            <l>Rasch ins Leben hinein!</l>
+          </lg>
+          <lg rhyme="abcde" type="stanza">
+            <l>Nun schon wieder</l>
+            <l>Den eratmenden Schritt</l>
+            <l>Mühsam Berg hinauf.</l>
+            <l>Auf denn, nicht träge denn!</l>
+            <l>Strebend und hoffend an.</l>
+          </lg>
+          <lg rhyme="abcde" type="stanza">
+            <l>Weit, hoch, herrlich der Blick</l>
+            <l>Rings ins Leben hinein;</l>
+            <l>Vom Gebürg zum Gebürg,</l>
+            <l>Über der ewige Geist</l>
+            <l>Ewigen Lebens ahndevoll.</l>
+          </lg>
+          <lg rhyme="abcdec" type="stanza">
+            <l>Seitwärts des Überdachs Schatten</l>
+            <l>Zieht dich an</l>
+            <l>Und der Frischung verheißende Blick</l>
+            <l>Auf der Schwelle des Mädchens da.</l>
+            <l>Labe dich! – Mir auch, Mädchen,</l>
+            <l>Diesen schäumenden Trunk</l>
+            <l>Und den freundlichen Gesundheitsblick!</l>
+          </lg>
+          <lg rhyme="abcdef" type="stanza">
+            <l>Ab dann, frischer hinab!</l>
+            <l>Sieh, die Sonne sinkt!</l>
+            <l>Eh sie sinkt, eh mich faßt</l>
+            <l>Greisen im Moore Nebelduft,</l>
+            <l>Entzahnte Kiefer schnattern</l>
+            <l>Und das schlockernde Gebein –.</l>
+          </lg>
+          <lg rhyme="abcde" type="stanza">
+            <l>Trunknen vom letzten Strahl</l>
+            <l>Reiß mich, ein Feuermeer</l>
+            <l>Mir im schäumenden Aug,</l>
+            <l>Mich Geblendeten, Taumelnden</l>
+            <l>In der Hölle nächtliches Tor.</l>
+          </lg>
+          <lg rhyme="abcdd" type="stanza">
+            <l>Töne, Schwager, dein Horn,</l>
+            <l>Raßle den schallenden Trab,</l>
+            <l>Daß der Orkus vernehme: ein Fürst kommt,</l>
+            <l>Drunten von ihren Sitzen</l>
+            <l>Sich die Gewaltigen lüften.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

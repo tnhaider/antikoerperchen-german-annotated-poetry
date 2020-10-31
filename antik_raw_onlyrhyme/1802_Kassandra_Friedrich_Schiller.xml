@@ -1,0 +1,223 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Kassandra</title>
+        <author>
+          <persName>
+            <surname>Schiller</surname>
+            <forename>Friedrich</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">16</measure>
+        <measure type="verses">128</measure>
+        <measure type="verses_per_stanza">1-8, 2-8, 3-8, 4-8, 5-8, 6-8, 7-8, 8-8, 9-8, 10-8, 11-8, 12-8, 13-8, 14-8, 15-8, 16-8</measure>
+        <measure type="tokens">646</measure>
+        <measure type="sentences">34</measure>
+        <measure type="characters">3206</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1802</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/friedrich-schiller-kassandra,textbearbeitung,206.html">Kassandra - Friedrich Schiller (Interpretation #206)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Weimarer Klassik</classCode>
+        <classCode scheme="text_genre">Ballade</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Kassandra</head>
+          <lg rhyme="ababcdcd" type="stanza">
+            <l>Freude war in Trojas Hallen,</l>
+            <l>Eh die hohe Feste fiel;</l>
+            <l>Jubelhymnen hört man schallen</l>
+            <l>In der Saiten goldnes Spiel;</l>
+            <l>Alle Hände ruhen müde</l>
+            <l>Von dem thränenvollen Streit,</l>
+            <l>Weil der herrliche Pelide</l>
+            <l>Priams schöne Tochter freit.</l>
+          </lg>
+          <lg rhyme="ababcdcd" type="stanza">
+            <l>Und geschmückt mit Lorberreisern,</l>
+            <l>Festlich wallet Schaar auf Schaar</l>
+            <l>Nach der Götter heil'gen Häusern,</l>
+            <l>Zu des Thymbriers Altar.</l>
+            <l>Dumpf erbrausend durch die Gassen</l>
+            <l>Wälzt sich die bacchant'sche Lust,</l>
+            <l>Und in ihrem Schmerz verlassen</l>
+            <l>War nur eine traur'ge Brust.</l>
+          </lg>
+          <lg rhyme="ababcdcd" type="stanza">
+            <l>Freudlos in der Freude Fülle,</l>
+            <l>Ungesellig und allein,</l>
+            <l>Wandelte Kassandra stille</l>
+            <l>In Apollos Lorbeerhain.</l>
+            <l>In des Waldes tiefste Gründe</l>
+            <l>Flüchtete die Seherin,</l>
+            <l>Und sie warf die Priesterbinde</l>
+            <l>Zu der Erde zürnend hin:</l>
+          </lg>
+          <lg rhyme="ababcdcd" type="stanza">
+            <l>Alles ist der Freude offen,</l>
+            <l>Alle Herzen sind beglückt,</l>
+            <l>Und die alten Eltern hoffen,</l>
+            <l>Und die Schwester steht geschmückt.</l>
+            <l>Ich allein muß einsam trauern,</l>
+            <l>Denn mich flieht der süße Wahn,</l>
+            <l>Und geflügelt diesen Mauern</l>
+            <l>Seh' ich das Verderben an.</l>
+          </lg>
+          <lg rhyme="ababcdcd" type="stanza">
+            <l>Eine Fackel seh' ich glühen,</l>
+            <l>Aber nicht in Hymens Hand;</l>
+            <l>Nach den Wolken seh' ich ziehen,</l>
+            <l>Aber nicht wie Opferbrand.</l>
+            <l>Feste seh' ich froh bereiten,</l>
+            <l>Doch im ahnungsvollen Geist</l>
+            <l>Hör' ich schon des Gottes Schreiten,</l>
+            <l>Der sie jammervoll zerreißt.</l>
+          </lg>
+          <lg rhyme="ababcdcd" type="stanza">
+            <l>Und sie schelten meine Klagen,</l>
+            <l>Und sie höhnen meinen Schmerz.</l>
+            <l>Einsam in die Wüste tragen</l>
+            <l>Muß ich mein gequältes Herz,</l>
+            <l>Von den Glücklichen gemieden</l>
+            <l>Und den Fröhlichen ein Spott!</l>
+            <l>Schweres hast du mir beschieden,</l>
+            <l>Pythischer, du arger Gott!</l>
+          </lg>
+          <lg rhyme="ababcdcd" type="stanza">
+            <l>Dein Orakel zu verkünden,</l>
+            <l>Warum warfest du mich hin</l>
+            <l>In die Stadt der ewig Blinden</l>
+            <l>Mit dem aufgeschloßnen Sinn?</l>
+            <l>Warum gabst du mir zu sehen,</l>
+            <l>Was ich doch nicht wenden kann?</l>
+            <l>Das Verhängte muß geschehen,</l>
+            <l>Das Gefürchtete muß nahn.</l>
+          </lg>
+          <lg rhyme="ababcdcd" type="stanza">
+            <l>Frommt's, den Schleier aufzuheben,</l>
+            <l>Wo das nahe Schreckniß droht?</l>
+            <l>Nur der Irrthum ist das Leben,</l>
+            <l>Und das Wissen ist der Tod.</l>
+            <l>Nimm, o nimm die traur'ge Klarheit,</l>
+            <l>Mir vom Aug den blut'gen Schein!</l>
+            <l>Schrecklich ist es, deiner Wahrheit</l>
+            <l>Sterbliches Gefäß zu sein.</l>
+          </lg>
+          <lg rhyme="ababcdcd" type="stanza">
+            <l>Meine Blindheit gib mir wieder</l>
+            <l>Und den fröhlich dunklen Sinn!</l>
+            <l>Nimmer sang ich freud'ge Lieder,</l>
+            <l>Seit ich deine Stimme bin.</l>
+            <l>Zukunft hast du mir gegeben,</l>
+            <l>Doch du nahmst den Augenblick,</l>
+            <l>Nahmst der Stunde fröhlich Leben -</l>
+            <l>Nimm dein falsch Geschenk zurück!</l>
+          </lg>
+          <lg rhyme="ababcdcd" type="stanza">
+            <l>Nimmer mit dem Schmuck der Bräute,</l>
+            <l>Kränzt' ich mir das duft'ge Haar,</l>
+            <l>Seit ich deinem Dienst mich weihte</l>
+            <l>An dem traurigen Altar.</l>
+            <l>Meine Jugend war nur Weinen,</l>
+            <l>Und ich kannte nur den Schmerz,</l>
+            <l>Jede herbe Noth der Meinen</l>
+            <l>Schlug an mein empfindend Herz.</l>
+          </lg>
+          <lg rhyme="ababcdcd" type="stanza">
+            <l>Fröhlich seh' ich die Gespielen,</l>
+            <l>Alles um mich lebt und liebt</l>
+            <l>In der Jugend Lustgefühlen,</l>
+            <l>Mir nur ist das Herz getrübt.</l>
+            <l>Mir erscheint der Lenz vergebens,</l>
+            <l>Der die Erde festlich schmückt;</l>
+            <l>Wer erfreute sich des Lebens,</l>
+            <l>Der in seine Tiefen blickt!</l>
+          </lg>
+          <lg rhyme="ababcdcd" type="stanza">
+            <l>Selig preis' ich Polyxenen</l>
+            <l>In des Herzens trunknem Wahn,</l>
+            <l>Denn den Besten der Hellenen</l>
+            <l>Hofft sie bräutlich zu umfahn.</l>
+            <l>Stolz ist ihre Brust gehoben,</l>
+            <l>Ihre Wonne faßt sie kaum,</l>
+            <l>Nicht euch, Himmlische dort oben,</l>
+            <l>Neidet sie in ihrem Traum.</l>
+          </lg>
+          <lg rhyme="ababcdcd" type="stanza">
+            <l>Und auch ich hab' ihn gesehen,</l>
+            <l>Den das Herz verlangend wählt!</l>
+            <l>Seine schönen Blicke flehen,</l>
+            <l>Von der Liebe Gluth beseelt.</l>
+            <l>Gerne möcht' ich mit dem Gatten</l>
+            <l>In die heim'sche Wohnung ziehn;</l>
+            <l>Doch es tritt ein styg'scher Schatten</l>
+            <l>Nächtlich zwischen mich und ihn.</l>
+          </lg>
+          <lg rhyme="ababcdcd" type="stanza">
+            <l>Ihre bleichen Larven alle</l>
+            <l>Sendet mir Proserpina;</l>
+            <l>Wo ich wandre, wo ich walle,</l>
+            <l>Stehen mir die Geister da.</l>
+            <l>In der Jugend frohe Spiele</l>
+            <l>Drängen sie sich grausend ein,</l>
+            <l>Ein entsetzliches Gewühle!</l>
+            <l>Nimmer kann ich fröhlich sein.</l>
+          </lg>
+          <lg rhyme="ababcdcd" type="stanza">
+            <l>Und den Mordstahl seh' ich blinken</l>
+            <l>Und das Mörderauge glühn;</l>
+            <l>Nicht zur Rechten, nicht zur Linken</l>
+            <l>Kann ich vor dem Schreckniß fliehn;</l>
+            <l>Nicht die Blicke darf ich wenden,</l>
+            <l>Wissend, schauend, unverwandt</l>
+            <l>Muß ich mein Geschick vollenden</l>
+            <l>Fallend in dem fremden Land -</l>
+          </lg>
+          <lg rhyme="ababcdcd" type="stanza">
+            <l>Und noch hallen ihre Worte -</l>
+            <l>Horch! da dringt verworrner Ton</l>
+            <l>Fernher aus des Tempels Pforte,</l>
+            <l>Todt lag Thetis' großer Sohn!</l>
+            <l>Eris schüttelt ihre Schlangen,</l>
+            <l>Alle Götter fliehn davon,</l>
+            <l>Und des Donners Wolken hangen</l>
+            <l>Schwer herab auf Ilion.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

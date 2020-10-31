@@ -1,0 +1,85 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Papageien-Park</title>
+        <author>
+          <persName>
+            <surname>Rilke</surname>
+            <forename>Rainer Maria</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">4</measure>
+        <measure type="verses">14</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-3, 4-3</measure>
+        <measure type="tokens">110</measure>
+        <measure type="sentences">5</measure>
+        <measure type="characters">602</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1908</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/rainer-maria-rilke-papageien-park,textbearbeitung,11.html">Papageien-Park - Rainer Maria Rilke (Interpretation #11)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Symbolismus</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Papageien-Park</head>
+          <lg rhyme="aaaa" type="stanza">
+            <l>Unter türkischen Linden, die blühen, an Rasenrändern,</l>
+            <l>in leise von ihrem Heimweh geschaukelten Ständern</l>
+            <l>atmen die Ara und wissen von ihren Ländern,</l>
+            <l>die sich, auch wenn sie nicht hinsehn, nicht verändern.</l>
+          </lg>
+          <lg rhyme="aaaa" type="stanza">
+            <l>Fremd im beschäftigten Grünen wie eine Parade,</l>
+            <l>zieren sie sich und fühlen sich selber zu schade,</l>
+            <l>und mit den kostbaren Schnäbeln aus Jaspis und Jade</l>
+            <l>kauen sie Graues, verschleudern es, finden es fade.</l>
+          </lg>
+          <lg rhyme="aba" type="stanza">
+            <l>Unten klauben die duffen Tauben, was sie nicht mögen,</l>
+            <l>während sich oben die höhnischen Vögel verbeugen</l>
+            <l>zwischen den beiden fast leeren vergeudeten Trögen.</l>
+          </lg>
+          <lg rhyme="aba" type="stanza">
+            <l>Aber dann wiegen sie wieder und schläfern und äugen,</l>
+            <l>spielen mit dunkelen Zungen, die gerne lögen,</l>
+            <l>zerstreut an den Fußfesselringen. Warten auf Zeugen.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

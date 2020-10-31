@@ -1,0 +1,165 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Deutschland. Ein Wintermärchen, Caput 18 / XVIII</title>
+        <author>
+          <persName>
+            <surname>Heine</surname>
+            <forename>Heinrich</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">17</measure>
+        <measure type="verses">68</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-4, 4-4, 5-4, 6-4, 7-4, 8-4, 9-4, 10-4, 11-4, 12-4, 13-4, 14-4, 15-4, 16-4, 17-4</measure>
+        <measure type="tokens">360</measure>
+        <measure type="sentences">23</measure>
+        <measure type="characters">1902</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1844</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/heinrich-heine-deutschland-ein-wintermaerchen-caput-18-xviii,textbearbeitung,356.html">Deutschland. Ein Wintermärchen, Caput 18 / XVIII - Heinrich Heine (Interpretation #356)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">VormärzBiedermeierJunges Deutschland</classCode>
+        <classCode scheme="text_genre">Versepos</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Deutschland. Ein Wintermärchen, Caput 18 / XVIII</head>
+          <lg rhyme="abcb" type="stanza">
+            <l>Minden ist eine feste Burg,</l>
+            <l>Hat gute Wehr und Waffen!</l>
+            <l>Mit preußischen Festungen hab ich jedoch</l>
+            <l>Nicht gerne was zu schaffen.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l>Wir kamen dort an zur Abendzeit.</l>
+            <l>Die Planken der Zugbrück' stöhnten</l>
+            <l>So schaurig, als wir hinübergerollt;</l>
+            <l>Die dunklen Gräben gähnten.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Die hohen Bastionen schauten mich an,</l>
+            <l>So drohend und verdrossen;</l>
+            <l>Das große Tor ging rasselnd auf,</l>
+            <l>Ward rasselnd wieder geschlossen.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Ach! meine Seele ward betrübt,</l>
+            <l>Wie des Odysseus Seele,</l>
+            <l>Als er gehört, daß Polyphem</l>
+            <l>Den Felsblock schob vor die Höhle.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Es trat an den Wagen ein Korporal</l>
+            <l>Und frug uns: wie wir hießen?</l>
+            <l>»Ich heiße Niemand, bin Augenarzt</l>
+            <l>Und steche den Star den Riesen.«</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Im Wirtshaus ward mir noch schlimmer zumut,</l>
+            <l>Das Essen wollt mir nicht schmecken.</l>
+            <l>Ging schlafen sogleich, doch schlief ich nicht,</l>
+            <l>Mich drückten so' schwer die Decken.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Es war ein breites Federbett,</l>
+            <l>Gardinen von rotem Damaste,</l>
+            <l>Der Himmel von verblichenem Gold,</l>
+            <l>Mit einem schmutzigen Quaste.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Verfluchter Quast! der die ganze Nacht</l>
+            <l>Die liebe Ruhe mir raubte!</l>
+            <l>Er hing mir, wie des Damokles Schwert,</l>
+            <l>So drohend über dem Haupte!</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Schien manchmal ein Schlangenkopf zu sein,</l>
+            <l>Und ich hörte ihn heimlich zischen:</l>
+            <l>»Du bist und bleibst in der Festung jetzt,</l>
+            <l>Du kannst nicht mehr entwischen!«</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>»Oh, daß ich wäre« – seufzte ich –,</l>
+            <l>»Daß ich zu Hause wäre,</l>
+            <l>Bei meiner lieben Frau in Paris,</l>
+            <l>Im Faubourg Poissonnière!«</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Ich fühlte, wie über die Stirne mir</l>
+            <l>Auch manchmal etwas gestrichen,</l>
+            <l>Gleich einer kalten Zensorhand,</l>
+            <l>Und meine Gedanken wichen –</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Gendarmen in Leichenlaken gehüllt,</l>
+            <l>Ein weißes Spukgewirre,</l>
+            <l>Umringte mein Bett, ich hörte auch</l>
+            <l>Unheimliches Kettengeklirre.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Ach! Die Gespenster schleppten mich fort,</l>
+            <l>Und ich hab mich endlich befunden</l>
+            <l>An einer steilen Felsenwand;</l>
+            <l>Dort war ich festgebunden.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Der böse schmutzige Betthimmelquast!</l>
+            <l>Ich fand ihn gleichfalls wieder,</l>
+            <l>Doch sah er jetzt wie ein Geier aus,</l>
+            <l>Mit Krallen und schwarzem Gefieder.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Er glich dem preußischen Adler jetzt,</l>
+            <l>Und hielt meinen Leib umklammert;</l>
+            <l>Er fraß mir die Leber aus der Brust,</l>
+            <l>Ich habe gestöhnt und gejammert.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Ich jammerte lange – da krähte der Hahn,</l>
+            <l>Und der Fiebertraum erblaßte.</l>
+            <l>Ich lag zu Minden im schwitzenden Bett,</l>
+            <l>Der Adler ward wieder zum Quaste.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Ich reiste fort mit Extrapost,</l>
+            <l>Und schöpfte freien Odem</l>
+            <l>Erst draußen in der freien Natur,</l>
+            <l>Auf bückeburg'schem Boden.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

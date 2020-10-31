@@ -1,0 +1,102 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Ganymed</title>
+        <author>
+          <persName>
+            <surname>Goethe</surname>
+            <forename>Johann Wolfgang von</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">4</measure>
+        <measure type="verses">31</measure>
+        <measure type="verses_per_stanza">1-8, 2-4, 3-10, 4-9</measure>
+        <measure type="tokens">108</measure>
+        <measure type="sentences">17</measure>
+        <measure type="characters">583</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1774</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/johann-wolfgang-von-goethe-ganymed,textbearbeitung,128.html">Ganymed - Johann Wolfgang von Goethe (Interpretation #128)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Sturm und DrangGeniezeit</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Ganymed</head>
+          <lg rhyme="abcdefgf" type="stanza">
+            <l>Wie im Morgenglanze</l>
+            <l>du rings mich anglühst,</l>
+            <l>Frühling, Geliebter!</l>
+            <l>Mit tausendfacher Liebeswonne</l>
+            <l>sich an mein Herz drängt</l>
+            <l>deiner ewigen Wärme</l>
+            <l>heilig Gefühl,</l>
+            <l>unendliche Schöne!</l>
+          </lg>
+          <lg rhyme="abcd" type="stanza">
+            <l>Daß ich dich fassen möcht'</l>
+            <l>in diesen Arm!</l>
+            <l>Ich komm'! Ich komme!</l>
+            <l>Wohin? Ach, wohin?</l>
+          </lg>
+          <lg rhyme="abbcdefghi" type="stanza">
+            <l>Hinauf! Hinauf strebt's.</l>
+            <l>Es schweben die Wolken</l>
+            <l>abwärts, die Wolken</l>
+            <l>neigen sich der sehnenden Liebe.</l>
+            <l>Mir! Mir!</l>
+            <l>In euerm Schoße</l>
+            <l>aufwärts!</l>
+            <l>Umfangend umfangen!</l>
+            <l>Aufwärts an deinen Busen,</l>
+            <l>alliebender Vater!</l>
+          </lg>
+          <lg rhyme="abcdefaghh" type="stanza">
+            <l>Ach, an deinem Busen</l>
+            <l>lieg' ich, schmachte,</l>
+            <l>und deine Blumen, dein Gras</l>
+            <l>drängen sich an mein Herz.</l>
+            <l>Du kühlst den brennenden</l>
+            <l>Durst meines Busens,</l>
+            <l>lieblicher Morgenwind,</l>
+            <l>ruft drein die Nachtigall</l>
+            <l>liebend nach mir aus dem Nebeltal.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

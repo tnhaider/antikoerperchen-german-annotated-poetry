@@ -1,0 +1,85 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Mensch im Eisen</title>
+        <author>
+          <persName>
+            <surname>Lersch</surname>
+            <forename>Heinrich</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">4</measure>
+        <measure type="verses">14</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-3, 4-3</measure>
+        <measure type="tokens">104</measure>
+        <measure type="sentences">8</measure>
+        <measure type="characters">529</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1907</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/heinrich-lersch-mensch-im-eisen,textbearbeitung,321.html">Mensch im Eisen - Heinrich Lersch (Interpretation #321)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">ArbeiterliteraturArbeiterdichtung, Expressionismus</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Mensch im Eisen</head>
+          <lg rhyme="abba" type="stanza">
+            <l>Mein Tagwerk ist: im engen Kesselrohr</l>
+            <l>bei kleinem Glühlicht kniend krumm zu sitzen –</l>
+            <l>an Nieten hämmernd in der Hitze schwitzen.</l>
+            <l>Verrußt sind Aug` und Haar und Ohr –</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l>Als wär ich nur ein kleiner Schlagmotor,</l>
+            <l>So lass` ich meine Arme federnd flitzen –</l>
+            <l>Die glühnde Luft sticht wie mit giftigen Spitzen;</l>
+            <l>Immer von neuem bricht der Schweiß hervor...</l>
+          </lg>
+          <lg rhyme="aba" type="stanza">
+            <l>O Mensch! Wo bist du? Wie ein Käfertier</l>
+            <l>Im Bernstein eingeschlossen hockst du rings im Eisen,</l>
+            <l>Eisen umpanzert dich in schließendem Gewirr.</l>
+          </lg>
+          <lg rhyme="abb" type="stanza">
+            <l>Im Auge rast die Seele, arm und irr.</l>
+            <l>Heimweh heult wahnsinnswild, Heimweh weint süße Weisen</l>
+            <l>Nach Erde, Mensch und Licht. So schrei doch, Mensch im Eisen!</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

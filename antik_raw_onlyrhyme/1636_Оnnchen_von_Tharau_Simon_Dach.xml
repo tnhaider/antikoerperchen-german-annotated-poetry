@@ -1,0 +1,95 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Ännchen von Tharau</title>
+        <author>
+          <persName>
+            <surname>Dach</surname>
+            <forename>Simon</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">4</measure>
+        <measure type="verses">24</measure>
+        <measure type="verses_per_stanza">1-6, 2-6, 3-6, 4-6</measure>
+        <measure type="tokens">181</measure>
+        <measure type="sentences">9</measure>
+        <measure type="characters">861</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1636</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/simon-dach-aennchen-von-tharau,textbearbeitung,234.html">Ännchen von Tharau - Simon Dach (Interpretation #234)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Barock</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Ännchen von Tharau</head>
+          <lg rhyme="aabbcc" type="stanza">
+            <l>Ännchen von Tharau ist's die mir gefällt,</l>
+            <l>Sie ist mein Leben, mein Gut und mein Geld.</l>
+            <l>Ännchen von Tharau hat wieder ihr Herz</l>
+            <l>Auf mich gerichtet, in Lieb und in Schmerz</l>
+            <l>Ännchen von Tharau, mein Reichtum, mein Gut,</l>
+            <l>Du meine Seele, mein Fleisch und mein Blut.</l>
+          </lg>
+          <lg rhyme="aabbcc" type="stanza">
+            <l>Käm' alles Wetter gleich auf uns zu schlah'n</l>
+            <l>Wir sind gesinnt, beieinander zu stah'n.</l>
+            <l>Krankheit, Verfolgung, Betrübnis und Pein</l>
+            <l>Soll unsrer Liebe Verknotigung sein.</l>
+            <l>Ännchen von Tharau, mein Reichtum, mein Gut,</l>
+            <l>Du meine Seele, mein Fleisch und mein Blut.</l>
+          </lg>
+          <lg rhyme="aabbcc" type="stanza">
+            <l>Recht als ein Palmbaum über sich steigt,</l>
+            <l>Je mehr ihn Hagel und Regen angreift:</l>
+            <l>So werd' die Lieb in uns mächtig und groß,</l>
+            <l>Durch Kreuz, durch Leiden, durch allerlei Not.</l>
+            <l>Ännchen von Tharau, mein Reichtum, mein Gut,</l>
+            <l>Du meine Seele, mein Fleisch und mein Blut.</l>
+          </lg>
+          <lg rhyme="aabbcc" type="stanza">
+            <l>Würdest du gleich einmal von mir getrennt,</l>
+            <l>Lebtest da, wo man die Sonne kaum kennt:</l>
+            <l>Ich will dir folgen, durch Wälder, durch Meer,</l>
+            <l>Durch Eis, durch Eisen, durch feindliches Heer.</l>
+            <l>Ännchen von Tharau, mein' Sonne, mein Schein,</l>
+            <l>Mein Leben schließ' ich in deines hinein</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

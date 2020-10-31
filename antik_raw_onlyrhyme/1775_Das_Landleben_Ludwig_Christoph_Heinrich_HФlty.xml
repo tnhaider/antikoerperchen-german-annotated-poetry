@@ -1,0 +1,117 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Das Landleben</title>
+        <author>
+          <persName>
+            <surname>Hölty</surname>
+            <forename>Ludwig Christoph Heinrich</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">9</measure>
+        <measure type="verses">36</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-4, 4-4, 5-4, 6-4, 7-4, 8-4, 9-4</measure>
+        <measure type="tokens">223</measure>
+        <measure type="sentences">10</measure>
+        <measure type="characters">1168</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1775</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/ludwig-christoph-heinrich-hoelty-das-landleben,textbearbeitung,132.html">Das Landleben - Ludwig Christoph Heinrich Hölty (Interpretation #132)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Sturm und DrangGeniezeit</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Das Landleben</head>
+          <lg rhyme="abcd" type="stanza">
+            <l>Wunderseliger Mann, welcher der Stadt entfloh!</l>
+            <l>Jedes Säuseln des Baums, jedes Geräusch des Bachs,</l>
+            <l>Jeder blinkende Kiesel,</l>
+            <l>Predigt Tugend und Weisheit ihm!</l>
+          </lg>
+          <lg rhyme="abcd" type="stanza">
+            <l>Jedes Schattengesträuch ist ihm ein heiliger</l>
+            <l>Tempel, wo ihm sein Gott näher vorüberwallt;</l>
+            <l>Jeder Rasen ein Altar,</l>
+            <l>Wo er vor dem Erhabnen kniet.</l>
+          </lg>
+          <lg rhyme="abcd" type="stanza">
+            <l>Seine Nachtigall tönt Schlummer herab auf ihn,</l>
+            <l>Seine Nachtigall weckt flötend ihn wieder auf,</l>
+            <l>Wenn das liebliche Frühroth</l>
+            <l>Durch die Bäum' auf sein Bette scheint.</l>
+          </lg>
+          <lg rhyme="abcd" type="stanza">
+            <l>Dann bewundert er dich, Gott, in der Morgenflur,</l>
+            <l>In der steigenden Pracht deiner Verkünderin,</l>
+            <l>Der allherrlichen Sonne,</l>
+            <l>Dich im Wurm, und im Knospenzweig.</l>
+          </lg>
+          <lg rhyme="abcd" type="stanza">
+            <l>Ruht im wehenden Gras, wann sich die Kühl' ergießt,</l>
+            <l>Oder strömet den Quell über die Blumen aus;</l>
+            <l>Trinkt den Athem der Blüthe,</l>
+            <l>Trinkt die Milde der Abendluft.</l>
+          </lg>
+          <lg rhyme="abcd" type="stanza">
+            <l>Sein bestrohetes Dach, wo sich das Taubenvolk</l>
+            <l>Sonnt, und spielet und hüpft, winket ihm süßre Rast,</l>
+            <l>Als dem Städter der Goldsaal,</l>
+            <l>Als der Polster der Städterin.</l>
+          </lg>
+          <lg rhyme="abcd" type="stanza">
+            <l>Und der spielende Trupp schwirret zu ihm herab,</l>
+            <l>Gurrt und säuselt ihn an, flattert ihm auf den Korb;</l>
+            <l>Picket Krumen und Erbsen,</l>
+            <l>Picket Körner ihm aus der Hand.</l>
+          </lg>
+          <lg rhyme="abcd" type="stanza">
+            <l>Einsam wandelt er oft, Sterbegedanken voll,</l>
+            <l>Durch die Gräber des Dorfs, sezet sich auf ein Grab,</l>
+            <l>Und beschauet die Kreuze,</l>
+            <l>Und den wehenden Todtenkranz.</l>
+          </lg>
+          <lg rhyme="abcd" type="stanza">
+            <l>Wunderseliger Mann, welcher der Stadt entfloh!</l>
+            <l>Engel segneten ihn, als er geboren ward,</l>
+            <l>Streuten Blumen des Himmels</l>
+            <l>Auf die Wiege des Knaben aus.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

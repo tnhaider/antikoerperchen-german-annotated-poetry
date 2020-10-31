@@ -1,0 +1,135 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Prometheus / Bedecke deinen Himmel, Zeus</title>
+        <author>
+          <persName>
+            <surname>Goethe</surname>
+            <forename>Johann Wolfgang von</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">7</measure>
+        <measure type="verses">58</measure>
+        <measure type="verses_per_stanza">1-12, 2-9, 3-7, 4-9, 5-9, 6-5, 7-7</measure>
+        <measure type="tokens">222</measure>
+        <measure type="sentences">17</measure>
+        <measure type="characters">1151</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1774</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/johann-wolfgang-von-goethe-prometheus,textbearbeitung,430.html"> Prometheus - Johann Wolfgang von Goethe (English Translation, Interpretation #430)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Sturm und DrangGeniezeit</classCode>
+        <classCode scheme="text_genre">Hymne</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Prometheus / Bedecke deinen Himmel, Zeus</head>
+          <lg rhyme="abcdefeghijk" type="stanza">
+            <l>Bedecke deinen Himmel, Zeus,</l>
+            <l>Mit Wolkendunst!</l>
+            <l>Und übe, Knaben gleich,</l>
+            <l>Der Disteln köpft,</l>
+            <l>An Eichen dich und Bergeshöh'n!</l>
+            <l>Mußt mir meine Erde</l>
+            <l>Doch lassen steh'n,</l>
+            <l>Und meine Hütte,</l>
+            <l>Die du nicht gebaut,</l>
+            <l>Und meinen Herd,</l>
+            <l>Um dessen Glut</l>
+            <l>Du mich beneidest.</l>
+          </lg>
+          <lg rhyme="abcdefghi" type="stanza">
+            <l>Ich kenne nichts Ärmeres</l>
+            <l>Unter der Sonn' als euch Götter!</l>
+            <l>Ihr nähret kümmerlich</l>
+            <l>Von Opfersteuern</l>
+            <l>Und Gebetshauch</l>
+            <l>Eure Majestät</l>
+            <l>Und darbtet, wären</l>
+            <l>Nicht Kinder und Bettler</l>
+            <l>Hoffnungsvolle Toren.</l>
+          </lg>
+          <lg rhyme="abcdefg" type="stanza">
+            <l>Da ich ein Kind war,</l>
+            <l>Nicht wußte, wo aus, wo ein,</l>
+            <l>Kehrt' ich mein verirrtes Auge</l>
+            <l>Zur Sonne, als wenn drüber wär</l>
+            <l>Ein Ohr zu hören meine Klage,</l>
+            <l>Ein Herz wie meins,</l>
+            <l>Sich des Bedrängten zu erbarmen.</l>
+          </lg>
+          <lg rhyme="abcdefbgh" type="stanza">
+            <l>Wer half mir</l>
+            <l>Wider der Titanen Übermut?</l>
+            <l>Wer rettete vom Tode mich,</l>
+            <l>Von Sklaverei?</l>
+            <l>Hast du's nicht alles selbst vollendet,</l>
+            <l>Heilig glühend Herz?</l>
+            <l>Und glühtest, jung und gut,</l>
+            <l>Betrogen, Rettungsdank</l>
+            <l>Dem Schlafenden dadroben?</l>
+          </lg>
+          <lg rhyme="abcdefghi" type="stanza">
+            <l>Ich dich ehren? Wofür?</l>
+            <l>Hast du die Schmerzen gelindert</l>
+            <l>Je des Beladenen?</l>
+            <l>Hast du die Tränen gestillet</l>
+            <l>Je des Geängsteten?</l>
+            <l>Hat nicht mich zum Manne geschmiedet</l>
+            <l>Die allmächtige Zeit</l>
+            <l>Und das ewige Schicksal,</l>
+            <l>Meine Herren und deine?</l>
+          </lg>
+          <lg rhyme="abcde" type="stanza">
+            <l>Wähntest du etwa,</l>
+            <l>Ich sollte das Leben hassen,</l>
+            <l>In Wüsten fliehn,</l>
+            <l>Weil nicht alle Knabenmorgen-</l>
+            <l>Blütenträume reiften?</l>
+          </lg>
+          <lg rhyme="abcdefe" type="stanza">
+            <l>Hier sitz' ich, forme Menschen</l>
+            <l>Nach meinem Bilde,</l>
+            <l>Ein Geschlecht, das mir gleich sei,</l>
+            <l>Zu leiden, weinen,</l>
+            <l>Genießen und zu freuen sich,</l>
+            <l>Und dein nicht zu achten,</l>
+            <l>Wie ich!</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

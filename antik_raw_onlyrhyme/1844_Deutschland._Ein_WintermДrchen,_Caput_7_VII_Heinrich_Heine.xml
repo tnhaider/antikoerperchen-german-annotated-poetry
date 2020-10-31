@@ -1,0 +1,237 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Deutschland. Ein Wintermärchen, Caput 7 / VII</title>
+        <author>
+          <persName>
+            <surname>Heine</surname>
+            <forename>Heinrich</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">29</measure>
+        <measure type="verses">116</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-4, 4-4, 5-4, 6-4, 7-4, 8-4, 9-4, 10-4, 11-4, 12-4, 13-4, 14-4, 15-4, 16-4, 17-4, 18-4, 19-4, 20-4, 21-4, 22-4, 23-4, 24-4, 25-4, 26-4, 27-4, 28-4, 29-4</measure>
+        <measure type="tokens">602</measure>
+        <measure type="sentences">40</measure>
+        <measure type="characters">3205</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1844</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/heinrich-heine-deutschland-ein-wintermaerchen-caput-7-vii,textbearbeitung,355.html">Deutschland. Ein Wintermärchen, Caput 7 / VII - Heinrich Heine (Interpretation #355)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">VormärzBiedermeierJunges Deutschland</classCode>
+        <classCode scheme="text_genre">Versepos</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Deutschland. Ein Wintermärchen, Caput 7 / VII</head>
+          <lg rhyme="abcb" type="stanza">
+            <l>Ich ging nach Haus und schlief, als ob</l>
+            <l>Die Engel gewiegt mich hätten.</l>
+            <l>Man ruht in deutschen Betten so weich,</l>
+            <l>Denn das sind Federbetten.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Wie sehnt ich mich oft nach der Süßigkeit</l>
+            <l>Des vaterländischen Pfühles,</l>
+            <l>Wenn ich auf harten Matratzen lag,</l>
+            <l>In der schlaflosen Nacht des Exiles!</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Man schläft sehr gut und träumt auch gut</l>
+            <l>In unseren Federbetten.</l>
+            <l>Hier fühlt die deutsche Seele sich frei</l>
+            <l>Von allen Erdenketten.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Sie fühlt sich frei und schwingt sich empor</l>
+            <l>Zu den höchsten Himmelsräumen.</l>
+            <l>O deutsche Seele, wie stolz ist dein Flug</l>
+            <l>In deinen nächtlichen Träumen!</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Die Götter erbleichen, wenn du nahst!</l>
+            <l>Du hast auf deinen Wegen</l>
+            <l>Gar manches Sternlein ausgeputzt</l>
+            <l>Mit deinen Flügelschlägen!</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Franzosen und Russen gehört das Land,</l>
+            <l>Das Meer gehört den Briten,</l>
+            <l>Wir aber besitzen im Luftreich des Traums</l>
+            <l>Die Herrschaft unbestritten.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Hier üben wir die Hegemonie,</l>
+            <l>Hier sind wir unzerstückelt;</l>
+            <l>Die andern Völker haben sich</l>
+            <l>Auf platter Erde entwickelt. – –</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Und als ich einschlief, da träumte mir,</l>
+            <l>Ich schlenderte wieder im hellen</l>
+            <l>Mondschein die hallenden Straßen entlang,</l>
+            <l>In dem altertümlichen Köllen.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Und hinter mir ging wieder einher</l>
+            <l>Mein schwarzer, vermummter Begleiter.</l>
+            <l>Ich war so müde, mir brachen die Knie,</l>
+            <l>Doch immer gingen wir weiter.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Wir gingen weiter. Mein Herz in der Brust</l>
+            <l>War klaffend aufgeschnitten,</l>
+            <l>Und aus der Herzenswunde hervor</l>
+            <l>Die roten Tropfen glitten.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Ich tauchte manchmal die Finger hinein,</l>
+            <l>Und manchmal ist es geschehen,</l>
+            <l>Daß ich die Haustürpfosten bestrich</l>
+            <l>Mit dem Blut im Vorübergehen.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Und jedesmal, wenn ich ein Haus</l>
+            <l>Bezeichnet in solcher Weise,</l>
+            <l>Ein Sterbeglöckchen erscholl fernher,</l>
+            <l>Wehmütig wimmernd und leise.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Am Himmel aber erblich der Mond,</l>
+            <l>Er wurde immer trüber;</l>
+            <l>Gleich schwarzen Rossen jagten an ihm</l>
+            <l>Die wilden Wolken vorüber.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Und immer ging hinter mir einher</l>
+            <l>Mit seinem verborgenen Beile</l>
+            <l>Die dunkle Gestalt – so wanderten wir</l>
+            <l>Wohl eine gute Weile.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Wir gehen und gehen, bis wir zuletzt</l>
+            <l>Wieder zum Domplatz gelangen;</l>
+            <l>Weit offen standen die Pforten dort,</l>
+            <l>Wir sind hineingegangen.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Es herrschte im ungeheuren Raum</l>
+            <l>Nur Tod und Nacht und Schweigen;</l>
+            <l>Es brannten Ampeln hie und da,</l>
+            <l>Um die Dunkelheit recht zu zeigen.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Ich wandelte lange den Pfeilern entlang</l>
+            <l>Und hörte nur die Tritte</l>
+            <l>Von meinem Begleiter, er folgte mir</l>
+            <l>Auch hier bei jedem Schritte.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Wir kamen endlich zu einem Ort,</l>
+            <l>Wo funkelnde Kerzenhelle</l>
+            <l>Und blitzendes Gold und Edelstein;</l>
+            <l>Das war die Drei-Königs-Kapelle.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Die Heil'gen Drei Könige jedoch,</l>
+            <l>Die sonst so still dort lagen,</l>
+            <l>O Wunder! sie saßen aufrecht jetzt</l>
+            <l>Auf ihren Sarkophagen.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Drei Totengerippe, phantastisch geputzt,</l>
+            <l>Mit Kronen auf den elenden</l>
+            <l>Vergilbten Schädeln, sie trugen auch</l>
+            <l>Das Zepter in knöchernen Händen.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Wie Hampelmänner bewegten sie</l>
+            <l>Die längstverstorbenen Knochen;</l>
+            <l>Die haben nach Moder und zugleich</l>
+            <l>Nach Weihrauchduft gerochen.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Der eine bewegte sogar den Mund</l>
+            <l>Und hielt eine Rede, sehr lange;</l>
+            <l>Er setzte mir auseinander, warum</l>
+            <l>Er meinen Respekt verlange.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l>Zuerst weil er ein Toter sei,</l>
+            <l>Und zweitens weil er ein König,</l>
+            <l>Und drittens weil er ein Heil'ger sei –</l>
+            <l>Das alles rührte mich wenig.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Ich gab ihm zur Antwort lachenden Muts:</l>
+            <l>»Vergebens ist deine Bemühung!</l>
+            <l>Ich sehe, daß du der Vergangenheit</l>
+            <l>Gehörst in jeder Beziehung.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l>Fort! fort von hier! im tiefen Grab</l>
+            <l>Ist eure natürliche Stelle.</l>
+            <l>Das Leben nimmt jetzt in Beschlag</l>
+            <l>Die Schätze dieser Kapelle.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Der Zukunft fröhliche Kavallerie</l>
+            <l>Soll hier im Dome hausen,</l>
+            <l>Und weicht ihr nicht willig, so brauch ich Gewalt</l>
+            <l>Und laß euch mit Kolben lausen!«</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>So sprach ich, und ich drehte mich um,</l>
+            <l>Da sah ich furchtbar blinken</l>
+            <l>Des stummen Begleiters furchtbares Beil –</l>
+            <l>Und er verstand mein Winken.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Er nahte sich, und mit dem Beil</l>
+            <l>Zerschmetterte er die armen</l>
+            <l>Skelette des Aberglaubens, er schlug</l>
+            <l>Sie nieder ohn' Erbarmen.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Es dröhnte der Hiebe Widerhall</l>
+            <l>Aus allen Gewölben, entsetzlich! –</l>
+            <l>Blutströme schossen aus meiner Brust,</l>
+            <l>Und ich erwachte plötzlich.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

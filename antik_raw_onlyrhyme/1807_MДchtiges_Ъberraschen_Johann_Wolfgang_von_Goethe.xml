@@ -1,0 +1,85 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Mächtiges Überraschen</title>
+        <author>
+          <persName>
+            <surname>Goethe</surname>
+            <forename>Johann Wolfgang von</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">4</measure>
+        <measure type="verses">14</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-3, 4-3</measure>
+        <measure type="tokens">100</measure>
+        <measure type="sentences">4</measure>
+        <measure type="characters">515</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1807</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/johann-wolfgang-von-goethe-maechtiges-ueberraschen,textbearbeitung,78.html">Mächtiges Überraschen - Johann Wolfgang von Goethe (Interpretation #78)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Weimarer Klassik</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Mächtiges Überraschen</head>
+          <lg rhyme="abba" type="stanza">
+            <l>Ein Strom entrauscht umwölktem Felsensaale,</l>
+            <l>Dem Ozean sich eilig zu verbinden;</l>
+            <l>Was auch sich spiegeln mag von Grund zu Gründen,</l>
+            <l>Er wandelt unaufhaltsam fort zu Tale.</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l>Dämonisch aber stürzt mit einem Male -</l>
+            <l>Ihr folgen Berg und Wald in Wirbelwinden -</l>
+            <l>Sich Oreas, Behagen dort zu finden,</l>
+            <l>Und hemmt den Lauf, begrenzt die weite Schale.</l>
+          </lg>
+          <lg rhyme="abc" type="stanza">
+            <l>Die Welle sprüht, und staunt zurück und weichet,</l>
+            <l>Und schwillt bergan, sich immer selbst zu trinken;</l>
+            <l>Gehemmt ist nun zum Vater hin das Streben.</l>
+          </lg>
+          <lg rhyme="abc" type="stanza">
+            <l>Sie schwankt und ruht, zum See zurückgedeichet;</l>
+            <l>Gestirne, spiegelnd sich, beschau'n das Blinken</l>
+            <l>Des Wellenschlags am Fels, ein neues Leben.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

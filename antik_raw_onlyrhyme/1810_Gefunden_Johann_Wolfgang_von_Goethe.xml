@@ -1,0 +1,93 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Gefunden</title>
+        <author>
+          <persName>
+            <surname>Goethe</surname>
+            <forename>Johann Wolfgang von</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">5</measure>
+        <measure type="verses">20</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-4, 4-4, 5-4</measure>
+        <measure type="tokens">73</measure>
+        <measure type="sentences">5</measure>
+        <measure type="characters">310</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1810</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/johann-wolfgang-von-goethe-gefunden,textbearbeitung,272.html">Gefunden - Johann Wolfgang von Goethe (Interpretation #272)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Weimarer Klassik</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Gefunden</head>
+          <lg rhyme="abcb" type="stanza">
+            <l>Ich ging im Walde</l>
+            <l>So vor mich hin,</l>
+            <l>Und nichts zu suchen,</l>
+            <l>Das war mein Sinn.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Im Schatten sah ich</l>
+            <l>Ein Blümlein stehn,</l>
+            <l>Wie Sterne blinkend,</l>
+            <l>Wie Äuglein schön.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Ich wollt es brechen,</l>
+            <l>Da sagt' es fein:</l>
+            <l>Soll ich zum Welken</l>
+            <l>Gebrochen sein?</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Mit allen Wurzeln</l>
+            <l>Hob ich es aus,</l>
+            <l>Und trugs zum Garten</l>
+            <l>Am hübschen Haus.</l>
+          </lg>
+          <lg rhyme="abcb" type="stanza">
+            <l>Ich pflanzt es wieder</l>
+            <l>Am kühlen Ort;</l>
+            <l>Nun zweigt und blüht es</l>
+            <l>Mir immer fort.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

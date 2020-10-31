@@ -1,0 +1,93 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Künstlers Abendlied</title>
+        <author>
+          <persName>
+            <surname>Goethe</surname>
+            <forename>Johann Wolfgang von</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">5</measure>
+        <measure type="verses">20</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-4, 4-4, 5-4</measure>
+        <measure type="tokens">102</measure>
+        <measure type="sentences">6</measure>
+        <measure type="characters">508</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1774</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/johann-wolfgang-von-goethe-kuenstlers-abendlied,textbearbeitung,292.html">Künstlers Abendlied - Johann Wolfgang von Goethe (Interpretation #292)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Sturm und DrangGeniezeit</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Künstlers Abendlied</head>
+          <lg rhyme="abab" type="stanza">
+            <l>Ach, daß die inn're Schöpfungskraft</l>
+            <l>Durch meinen Sinn erschölle!</l>
+            <l>Daß eine Bildung voller Saft</l>
+            <l>Aus meinen Fingern quölle!</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l>Ich zittre nur, ich stottre nur</l>
+            <l>Und kann es doch nicht lassen;</l>
+            <l>Ich fühl', ich kenne dich, Natur,</l>
+            <l>Und so muß ich dich fassen.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l>Bedenk' ich dann, wie manches Jahr</l>
+            <l>Sich schon mein Sinn erschließet,</l>
+            <l>Wie er, wo dürre Heide war,</l>
+            <l>Nun Freudenquell genießet:</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l>Wie sehn' ich mich, Natur, nach dir,</l>
+            <l>Dich treu und lieb zu fühlen!</l>
+            <l>Ein lust'ger Springbrunn, wirst du mir</l>
+            <l>Aus tausend Röhren spielen.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l>Wirst alle meine Kräfte mir</l>
+            <l>In meinem Sinn erheitern,</l>
+            <l>Und dieses enge Dasein hier</l>
+            <l>Zur Ewigkeit erweitern.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

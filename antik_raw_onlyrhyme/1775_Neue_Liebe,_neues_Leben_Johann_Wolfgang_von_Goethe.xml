@@ -1,0 +1,93 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Neue Liebe, neues Leben</title>
+        <author>
+          <persName>
+            <surname>Goethe</surname>
+            <forename>Johann Wolfgang von</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">3</measure>
+        <measure type="verses">24</measure>
+        <measure type="verses_per_stanza">1-8, 2-8, 3-8</measure>
+        <measure type="tokens">119</measure>
+        <measure type="sentences">12</measure>
+        <measure type="characters">590</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1775</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/johann-wolfgang-von-goethe-neue-liebe-neues-leben-new-love-new-life,textbearbeitung,436.html"> Neue Liebe, neues Leben (New Love, New Life) - Johann Wolfgang von Goethe (English Translation, Interpretation #436)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Sturm und DrangGeniezeit</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Neue Liebe, neues Leben</head>
+          <lg rhyme="ababccdd" type="stanza">
+            <l>Herz, mein Herz, was soll das geben?</l>
+            <l>Was bedränget dich so sehr?</l>
+            <l>Welch ein fremdes, neues Leben!</l>
+            <l>Ich erkenne dich nicht mehr.</l>
+            <l>Weg ist alles, was du liebtest,</l>
+            <l>Weg, warum du dich betrübtest,</l>
+            <l>Weg dein Fleiß und deine Ruh –</l>
+            <l>Ach, wie kamst du nur dazu!</l>
+          </lg>
+          <lg rhyme="ababccdd" type="stanza">
+            <l>Fesselt dich die Jugendblüte,</l>
+            <l>Diese liebliche Gestalt,</l>
+            <l>Dieser Blick voll Treu und Güte</l>
+            <l>Mit unendlicher Gewalt?</l>
+            <l>Will ich rasch mich ihr entziehen,</l>
+            <l>Mich ermannen, ihr entfliehen,</l>
+            <l>Führet mich im Augenblick,</l>
+            <l>Ach, mein Weg zu ihr zurück.</l>
+          </lg>
+          <lg rhyme="ababccdd" type="stanza">
+            <l>Und an diesem Zauberfädchen,</l>
+            <l>Das sich nicht zerreißen lässt,</l>
+            <l>Hält das liebe lose Mädchen</l>
+            <l>Mich so wider Willen fest;</l>
+            <l>Muss in ihrem Zauberkreise</l>
+            <l>Leben nun auf ihre Weise.</l>
+            <l>Die Verändrung, ach, wie groß!</l>
+            <l>Liebe! Liebe! Lass mich los!</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

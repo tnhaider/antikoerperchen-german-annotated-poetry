@@ -1,0 +1,73 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Wanderers Nachtlied</title>
+        <author>
+          <persName>
+            <surname>Goethe</surname>
+            <forename>Johann Wolfgang von</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">1</measure>
+        <measure type="verses">8</measure>
+        <measure type="verses_per_stanza">1-8</measure>
+        <measure type="tokens">45</measure>
+        <measure type="sentences">3</measure>
+        <measure type="characters">214</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1776</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/johann-wolfgang-von-goethe-wanderers-nachtlied,textbearbeitung,200.html">Wanderers Nachtlied - Johann Wolfgang von Goethe (Interpretation #200)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Weimarer Klassik</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Wanderers Nachtlied</head>
+          <lg rhyme="ababcdcd" type="stanza">
+            <l>Der du von dem Himmel bist,</l>
+            <l>Alle Freud (Alles Leid) und Schmerzen stillest,</l>
+            <l>Den, der doppelt elend ist,</l>
+            <l>Doppelt mit Erquickung füllest;</l>
+            <l>Ach,ich bin des Treibens müde!</l>
+            <l>Was soll all die Qual (der Schmerz) und Lust?</l>
+            <l>Süßer Friede,</l>
+            <l>Komm,ach komm in meine Brust!</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Morgensonett</title>
+        <author>
+          <persName>
+            <surname>Gryphius</surname>
+            <forename>Andreas</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">4</measure>
+        <measure type="verses">14</measure>
+        <measure type="verses_per_stanza">1-4, 2-4, 3-3, 4-3</measure>
+        <measure type="tokens">120</measure>
+        <measure type="sentences">10</measure>
+        <measure type="characters">594</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1650</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/andreas-gryphius-morgensonett,textbearbeitung,398.html">Morgensonett - Andreas Gryphius (Interpretation #398)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Barock</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Morgensonett</head>
+          <lg rhyme="abba" type="stanza">
+            <l>Die ewighelle Schar will nun ihr Licht verschließen;</l>
+            <l>Diana steht erblaßt; die Morgenröte lacht</l>
+            <l>Den grauen Himmel an, der sanfte Wind erwacht</l>
+            <l>Und reizt das Federvolk, den neuen Tag zu grüßen.</l>
+          </lg>
+          <lg rhyme="abba" type="stanza">
+            <l>Das Leben dieser Welt eilt schon die Welt zu küssen</l>
+            <l>Und steckt sein Haupt empor; man sieht der Strahlen Pracht</l>
+            <l>Nun blinkern auf der See. O dreimal höchste Macht!</l>
+            <l>Erleuchte den, der sich jetzt beugt vor deinen Füßen!</l>
+          </lg>
+          <lg rhyme="aab" type="stanza">
+            <l>Vertreib die dicke Nacht, die meine Seel umgibt,</l>
+            <l>Die Schmerzensfinsternis, die Herz und Geist betrübt!</l>
+            <l>Erquicke mein Gemüt und stärke mein Vertrauen!</l>
+          </lg>
+          <lg rhyme="aab" type="stanza">
+            <l>Gib, daß ich diesen Tag in deinem Dienst allein</l>
+            <l>Zubring! und wenn mein End und jener Tag bricht ein,</l>
+            <l>Daß ich dich, meine Sonn! mein Licht! mög ewig schauen!</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

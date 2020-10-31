@@ -1,0 +1,100 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Das Karussell</title>
+        <author>
+          <persName>
+            <surname>Rilke</surname>
+            <forename>Rainer Maria</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">7</measure>
+        <measure type="verses">27</measure>
+        <measure type="verses_per_stanza">1-8, 2-3, 3-3, 4-1, 5-4, 6-1, 7-7</measure>
+        <measure type="tokens">186</measure>
+        <measure type="sentences">9</measure>
+        <measure type="characters">902</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1906</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/rainer-maria-rilke-das-karussell,textbearbeitung,290.html">Das Karussell - Rainer Maria Rilke (Interpretation #290)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Symbolismus</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Das Karussell</head>
+          <lg rhyme="abbabccb" type="stanza">
+            <l>Mit einem Dach und seinem Schatten dreht</l>
+            <l>sich eine kleine Weile der Bestand</l>
+            <l>von bunten Pferden, alle aus dem Land,</l>
+            <l>das lange zögert, eh es untergeht.</l>
+            <l>Zwar manche sind an Wagen angespannt,</l>
+            <l>doch alle haben Mut in ihren Mienen;</l>
+            <l>ein böser roter Löwe geht mit ihnen</l>
+            <l>und dann und wann ein weißer Elefant.</l>
+          </lg>
+          <lg rhyme="aba" type="stanza">
+            <l>Sogar ein Hirsch ist da, ganz wie im Wald,</l>
+            <l>nur dass er einen Sattel trägt und drüber</l>
+            <l>ein kleines blaues Mädchen aufgeschnallt.</l>
+          </lg>
+          <lg rhyme="abab" type="stanza">
+            <l>Und auf dem Löwen reitet weiß ein Junge</l>
+            <l>und hält sich mit der kleinen heißen Hand</l>
+            <l>dieweil der Löwe Zähne zeigt und Zunge.</l>
+            <l>Und dann und wann ein weißer Elefant.</l>
+          </lg>
+          <lg rhyme="abbac" type="stanza">
+            <l>Und auf den Pferden kommen sie vorüber,</l>
+            <l>auch Mädchen, helle, diesem Pferdesprunge</l>
+            <l>fast schon entwachsen; mitten in dem Schwunge</l>
+            <l>schauen sie auf, irgendwohin, herüber -</l>
+            <l>Und dann und wann ein weißer Elefant.</l>
+          </lg>
+          <lg rhyme="ababaab" type="stanza">
+            <l>Und das geht hin und eilt sich, dass es endet,</l>
+            <l>und kreist und dreht sich nur und hat kein Ziel.</l>
+            <l>Ein Rot, ein Grün, ein Grau vorbeigesendet,</l>
+            <l>ein kleines kaum begonnenes Profil -.</l>
+            <l>Und manchesmal ein Lächeln, hergewendet,</l>
+            <l>ein seliges, das blendet und verschwendet</l>
+            <l>an dieses atemlose blinde Spiel...</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

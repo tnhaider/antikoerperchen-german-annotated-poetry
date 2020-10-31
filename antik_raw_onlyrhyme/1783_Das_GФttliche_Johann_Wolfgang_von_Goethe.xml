@@ -1,0 +1,143 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Das Göttliche</title>
+        <author>
+          <persName>
+            <surname>Goethe</surname>
+            <forename>Johann Wolfgang von</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">10</measure>
+        <measure type="verses">60</measure>
+        <measure type="verses_per_stanza">1-6, 2-6, 3-7, 4-6, 5-6, 6-5, 7-6, 8-6, 9-6, 10-6</measure>
+        <measure type="tokens">185</measure>
+        <measure type="sentences">14</measure>
+        <measure type="characters">967</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1783</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/johann-wolfgang-von-goethe-das-goettliche,textbearbeitung,201.html">Das Göttliche - Johann Wolfgang von Goethe (Interpretation #201)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Weimarer Klassik</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Das Göttliche</head>
+          <lg rhyme="abcdef" type="stanza">
+            <l>Edel sei der Mensch</l>
+            <l>Hilfreich und gut!</l>
+            <l>Denn das allein</l>
+            <l>Unterscheidet ihn</l>
+            <l>Von allen Wesen,</l>
+            <l>Die wir kennen.</l>
+          </lg>
+          <lg rhyme="abcdef" type="stanza">
+            <l>Heil den unbekannten</l>
+            <l>Höhern Wesen</l>
+            <l>Die wir ahnen!</l>
+            <l>Ihnen gleiche der Mensch!</l>
+            <l>Sein Beispiel lehr uns</l>
+            <l>Jene glauben.</l>
+          </lg>
+          <lg rhyme="abcdef" type="stanza">
+            <l>Denn unfühlend</l>
+            <l>Ist die Natur:</l>
+            <l>Es leuchtet die Sonne</l>
+            <l>Über Bös und Gute</l>
+            <l>Und dem Verbrecher</l>
+            <l>Glänzen wie dem Besten</l>
+            <l>der Mond und die Sterne.</l>
+          </lg>
+          <lg rhyme="abcdef" type="stanza">
+            <l>Wind und Ströme,</l>
+            <l>Donner und Hagel</l>
+            <l>Rauschen ihren Weg</l>
+            <l>Und ergreifen</l>
+            <l>Vorüber eilend</l>
+            <l>Einen um den andern.</l>
+          </lg>
+          <lg rhyme="abcdef" type="stanza">
+            <l>Auch so das Glück</l>
+            <l>Tappt unter die Menge,</l>
+            <l>Faßt bald des Knaben</l>
+            <l>Lockige Unschuld,</l>
+            <l>Bald auch den kahlen</l>
+            <l>Schuldigen Scheitel.</l>
+          </lg>
+          <lg rhyme="abcde" type="stanza">
+            <l>Nach ewigen, ehrnen,</l>
+            <l>Großen Gesetzen</l>
+            <l>Müssen wir alle</l>
+            <l>Unseres Daseins</l>
+            <l>Kreise vollenden.</l>
+          </lg>
+          <lg rhyme="abcdef" type="stanza">
+            <l>Nur allein der Mensch</l>
+            <l>Vermag das Unmögliche:</l>
+            <l>Er unterscheidet,</l>
+            <l>Wählet und richtet;</l>
+            <l>Er kann dem Augenblick</l>
+            <l>Dauer verleihen.</l>
+          </lg>
+          <lg rhyme="abcdef" type="stanza">
+            <l>Er allein darf</l>
+            <l>Den Guten lohnen,</l>
+            <l>Den Bösen strafen,</l>
+            <l>Heilen und retten,</l>
+            <l>Alles Irrende, Schweifende</l>
+            <l>Nützlich verbinden.</l>
+          </lg>
+          <lg rhyme="abcdef" type="stanza">
+            <l>Und wir verehren</l>
+            <l>Die Unsterblichen,</l>
+            <l>Als wären sie Menschen,</l>
+            <l>Täten im großen,</l>
+            <l>Was der Beste im kleinen</l>
+            <l>tut oder möchte.</l>
+          </lg>
+          <lg rhyme="abcdef" type="stanza">
+            <l>Der edle Mensch</l>
+            <l>Sei hilfreich und gut!</l>
+            <l>Unermüdet schaff er</l>
+            <l>Das Nützliche, Rechte,</l>
+            <l>Sei uns ein Vorbild</l>
+            <l>Jener geahneten Wesen.</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

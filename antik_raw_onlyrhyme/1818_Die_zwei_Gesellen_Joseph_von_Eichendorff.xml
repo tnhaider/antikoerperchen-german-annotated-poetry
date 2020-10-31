@@ -1,0 +1,105 @@
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Die zwei Gesellen</title>
+        <author>
+          <persName>
+            <surname>Eichendorff</surname>
+            <forename>Joseph von</forename>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <surname>Haider</surname>
+            <forename>Thomas Nikolaus</forename>
+          </persName>
+          <orgName>Max Planck Institute for Empirical Aesthetics, Frankfurt am Main</orgName>
+          <email>thomas.haider@ae.mpg.de</email>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <name>Deutscher Lyrik Korpus Edition (DLK)</name>
+          <date>1-11-2017</date>
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure type="stanzas">6</measure>
+        <measure type="verses">30</measure>
+        <measure type="verses_per_stanza">1-5, 2-5, 3-5, 4-5, 5-5, 6-5</measure>
+        <measure type="tokens">158</measure>
+        <measure type="sentences">5</measure>
+        <measure type="characters">776</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <name/>
+        </publisher>
+        <pubPlace/>
+        <date type="publication">1818</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p corresp="http://lyrik.antikoerperchen.de/joseph-von-eichendorff-die-zwei-gesellen,textbearbeitung,143.html">Die zwei Gesellen - Joseph von Eichendorff (Interpretation #143)</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <classCode scheme="literary_period">Romantik</classCode>
+        <classCode scheme="text_genre">Gedicht</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head>Die zwei Gesellen</head>
+          <lg rhyme="abaab" type="stanza">
+            <l>Es zogen zwei rüstge Gesellen</l>
+            <l>Zum erstenmal von Haus,</l>
+            <l>So jubelnd recht in die hellen,</l>
+            <l>Klingenden, singenden Wellen</l>
+            <l>Des vollen Frühlings hinaus.</l>
+          </lg>
+          <lg rhyme="abaab" type="stanza">
+            <l>Die strebten nach hohen Dingen,</l>
+            <l>Die wollten, trotz Lust und Schmerz,</l>
+            <l>Was Rechts in der Welt vollbringen,</l>
+            <l>Und wem sie vorübergingen,</l>
+            <l>Dem lachten Sinn und Herz. -</l>
+          </lg>
+          <lg rhyme="abaab" type="stanza">
+            <l>Der erste, der fand ein Liebchen,</l>
+            <l>Die Schwieger kauft´ Hof und Haus;</l>
+            <l>Der wiegte gar bald ein Bübchen,</l>
+            <l>Und sah aus heimlichem Stübchen</l>
+            <l>Behaglich ins Feld hinaus.</l>
+          </lg>
+          <lg rhyme="abaab" type="stanza">
+            <l>Dem zweiten sangen und logen</l>
+            <l>Die tausend Stimmen im Grund,</l>
+            <l>Verlockend´ Sirenen, und zogen</l>
+            <l>Ihn in der buhlenden Wogen</l>
+            <l>Farbig klingenden Schlund.</l>
+          </lg>
+          <lg rhyme="abaab" type="stanza">
+            <l>Und wie er auftaucht vom Schlunde,</l>
+            <l>Da war er müde und alt,</l>
+            <l>Sein Schifflein das lag im Grunde,</l>
+            <l>So still wars rings in der Runde,</l>
+            <l>Und über die Wasser wehts kalt.</l>
+          </lg>
+          <lg rhyme="abaab" type="stanza">
+            <l>Es singen und klingen die Wellen</l>
+            <l>Des Frühlings wohl über mir;</l>
+            <l>Und seh ich so kecke Gesellen,</l>
+            <l>Die Tränen im Auge mir schwellen -</l>
+            <l>Ach Gott, führ mich liebreich zu Dir!</l>
+          </lg>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
