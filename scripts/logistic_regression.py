@@ -121,8 +121,13 @@ for sid, texts in stanza_texts.items():
 	author = authors[0][0]
 	author = re.sub(',', '_', author)
 	author = re.sub(' ', '_', author)
+	period_pattern = re.compile('[A-Z][^A-Z\s]+(?:\s+\S[^A-Z\s]*)*')
 	periods = Counter(stanza_periods[sid]).most_common(1)
-	period = ' '.join([i[0] for i in periods])
+	period = periods[0][0]
+	period_list = period_pattern.findall(period)
+	periods = [re.sub(' ', '_', re.sub(',', '_', i)) for i in period_list]
+	period = ' '.join(periods)
+	period = re.sub('__', ' ', period)
 	measures = Counter(stanza_measures[sid]).most_common(2)
 	measure_top2 = ' '.join(['_'.join(i[0].split('.')) for i in measures])
 	measure_length = ' '.join([i[0] for i in measures])
