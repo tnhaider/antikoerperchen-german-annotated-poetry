@@ -83,7 +83,7 @@ config = [
 top_k = 2
 
 # Size of test set, thus trainsize = 1-testsize
-test_size = 0.7
+test_size = 0.3
 
 # Number of crossvalidation folds over the dataset
 folds = 10
