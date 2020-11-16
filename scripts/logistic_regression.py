@@ -127,7 +127,9 @@ for sid, texts in stanza_texts.items():
 	period_list = period_pattern.findall(period)
 	periods = [re.sub(' ', '_', re.sub(',', '_', i)) for i in period_list]
 	period = ' '.join(periods)
+	period = re.sub('Weimarer Klassik', 'Weimarer_Klassik', period)
 	period = re.sub('__', ' ', period)
+	period = re.sub('Weimarer Klassik', 'Weimarer_Klassik', period)
 	measures = Counter(stanza_measures[sid]).most_common(2)
 	measure_top2 = ' '.join(['_'.join(i[0].split('.')) for i in measures])
 	measure_length = ' '.join([i[0] for i in measures])
